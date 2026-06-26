@@ -223,7 +223,21 @@
     .pick-banner .pick-name { font-size: 1.15rem; font-weight: 700; color: var(--accent-green); }
     .pick-banner .pick-sub { color: var(--text-muted); font-size: 0.85rem; }
 
-    @media (max-width: 800px) { .detail-container { grid-template-columns: 1fr; } body { padding: 1rem; } }
+    /* Weather widget */
+    .weather-widget {
+        background: var(--bg-surface); border: 1px solid var(--border); border-radius: 8px;
+        padding: 0.65rem 1.1rem; margin-bottom: 1rem;
+        display: none; align-items: center; gap: 1rem; flex-wrap: wrap;
+        font-size: 0.85rem; box-shadow: 0 4px 12px var(--shadow);
+    }
+    .weather-widget.loaded { display: flex; }
+    .weather-temp { font-size: 1.4rem; font-weight: 800; }
+    .weather-icon { font-size: 1.5rem; }
+    .weather-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); }
+    .weather-reason { margin-left: auto; color: var(--text-muted); font-size: 0.78rem; font-style: italic; }
+    .pick-banner .pick-reason { color: var(--accent-amber); font-size: 0.78rem; margin-top: 0.2rem; opacity: 0.9; }
+
+    @media (max-width: 800px) { .detail-container { grid-template-columns: 1fr; } body { padding: 1rem; } .weather-reason { margin-left: 0; } }
 </style>
 </head>
 <body>
@@ -247,10 +261,24 @@
 
     <div class="summary-dashboard" id="summaryDashboard"></div>
 
+    <div class="weather-widget" id="weatherWidget">
+        <div>
+            <div class="weather-label" id="weatherLoc">📍 Detecting location…</div>
+        </div>
+        <div class="weather-temp" id="weatherTemp"></div>
+        <div class="weather-icon" id="weatherIcon"></div>
+        <div>
+            <div style="font-weight:600" id="weatherCondText"></div>
+            <div class="weather-label" id="weatherDate"></div>
+        </div>
+        <div class="weather-reason" id="weatherBias"></div>
+    </div>
+
     <div class="pick-banner" id="pickBanner">
         <div>
             <div class="pick-name" id="pickName"></div>
             <div class="pick-sub" id="pickSub"></div>
+            <div class="pick-reason" id="pickReason"></div>
         </div>
         <div style="display:flex;gap:0.5rem">
             <button class="btn" onclick="pickForMe()">🎲 Again</button>
@@ -769,14 +797,94 @@ function resetData() {
     }
 }
 
+/* ============================ WEATHER ============================ */
+const WMO_TEXT = {0:"Clear",1:"Mostly Clear",2:"Partly Cloudy",3:"Overcast",45:"Foggy",48:"Icy Fog",51:"Light Drizzle",53:"Drizzle",55:"Heavy Drizzle",61:"Light Rain",63:"Rain",65:"Heavy Rain",71:"Light Snow",73:"Snow",75:"Heavy Snow",80:"Rain Showers",81:"Showers",82:"Heavy Showers",95:"Thunderstorm",96:"Hail Storm",99:"Heavy Hail"};
+const WMO_ICON = {0:"☀️",1:"🌤",2:"⛅",3:"☁️",45:"🌫",48:"🌫",51:"🌦",53:"🌦",55:"🌧",61:"🌧",63:"🌧",65:"🌧",71:"🌨",73:"❄️",75:"❄️",80:"🌦",81:"🌦",82:"⛈",95:"⛈",96:"⛈",99:"⛈"};
+let wxData = null;
+
+async function fetchWeather() {
+    if (!navigator.geolocation) return;
+    navigator.geolocation.getCurrentPosition(async pos => {
+        try {
+            const {latitude: lat, longitude: lon} = pos.coords;
+            const r = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat.toFixed(4)}&longitude=${lon.toFixed(4)}&current=temperature_2m,weathercode&timezone=auto`);
+            const d = await r.json();
+            const temp = Math.round(d.current.temperature_2m);
+            const code = d.current.weathercode;
+            const city = (d.timezone || "").split("/").pop().replace(/_/g, " ") || "Your Location";
+            wxData = {temp, icon: WMO_ICON[code] || "🌡", cond: WMO_TEXT[code] || "", city};
+            renderWeather();
+        } catch(e) {}
+    }, () => {});
+}
+
+function renderWeather() {
+    if (!wxData) return;
+    const {temp, icon, cond, city} = wxData;
+    const tempColor = temp >= 28 ? "#f97316" : temp >= 22 ? "var(--accent-amber)" : temp >= 10 ? "var(--accent-green)" : "var(--accent-blue)";
+    const h = new Date().getHours();
+    const tempBias = temp >= 28 ? "Hot day — freshies & aquatics favoured"
+                   : temp >= 22 ? "Warm day — freshies & blues favoured"
+                   : temp >= 15 ? "Mild day — balanced selection"
+                   : temp >= 8  ? "Cool day — earthy & aromatics favoured"
+                                : "Cold day — winter heavyweights favoured";
+    const timeBias = h < 6  ? "late night → date & clubbing" :
+                     h < 12 ? "morning → office & casual" :
+                     h < 17 ? "afternoon → casual" :
+                     h < 21 ? "evening → date & formal" :
+                              "night → date & clubbing";
+    const el = document.getElementById;
+    el("weatherLoc").textContent = `📍 ${city}`;
+    el("weatherTemp").textContent = `${temp}°C`;
+    el("weatherTemp").style.color = tempColor;
+    el("weatherIcon").textContent = icon;
+    el("weatherCondText").textContent = cond;
+    el("weatherDate").textContent = new Date().toLocaleDateString("en-AU", {weekday:"short", day:"numeric", month:"short"});
+    el("weatherBias").textContent = `${tempBias}  ·  ${timeBias}`;
+    document.getElementById("weatherWidget").classList.add("loaded");
+}
+
+function tempScore(family, temp) {
+    const t = temp ?? 18;
+    const m = t >= 28 ? {fresh:10,blue:6,aventus:4,earthy:2,winter:0}
+            : t >= 22 ? {fresh:8, blue:8,aventus:5,earthy:4,winter:1}
+            : t >= 15 ? {fresh:5, blue:7,aventus:7,earthy:7,winter:4}
+            : t >= 8  ? {fresh:2, blue:5,aventus:7,earthy:8,winter:8}
+                      : {fresh:0, blue:3,aventus:5,earthy:7,winter:10};
+    return m[family] ?? 4;
+}
+function timeScore(scenario) {
+    const h = new Date().getHours();
+    const m = h < 6  ? {office:1,casual:4,date:8, formal:5,clubbing:10}
+            : h < 12 ? {office:9,casual:8,date:3, formal:4,clubbing:1}
+            : h < 17 ? {office:7,casual:9,date:5, formal:5,clubbing:2}
+            : h < 21 ? {office:3,casual:7,date:9, formal:8,clubbing:7}
+                     : {office:1,casual:4,date:8, formal:6,clubbing:10};
+    return m[scenario] ?? 5;
+}
+
 /* ============================ PICK FOR ME ============================ */
 function pickForMe() {
     const pool = getVisible();
     if (pool.length === 0) { alert("No fragrances match the current filters — loosen them first."); return; }
-    const pick = pool[Math.floor(Math.random()*pool.length)];
+    let pick;
+    if (wxData) {
+        const weights = pool.map(d => Math.max(1, tempScore(d.family, wxData.temp) + timeScore(d.scenario)));
+        const total = weights.reduce((s, w) => s + w, 0);
+        let rand = Math.random() * total;
+        pick = pool[pool.length - 1];
+        for (let i = 0; i < pool.length; i++) { rand -= weights[i]; if (rand <= 0) { pick = pool[i]; break; } }
+    } else {
+        pick = pool[Math.floor(Math.random() * pool.length)];
+    }
     document.getElementById("pickName").textContent = `${pick.name} — ${pick.house}`;
     const bits = [SCENARIO[pick.scenario], FAMILY[pick.family], (PERF[pick.perf]||PERF[""]).txt].filter(Boolean);
     document.getElementById("pickSub").textContent = bits.join("  ·  ") + (pick.inspiration ? `  ·  DNA: ${pick.inspiration}` : "");
+    const h = new Date().getHours();
+    const timeStr = h < 6 ? "late night" : h < 12 ? "morning" : h < 17 ? "afternoon" : h < 21 ? "evening" : "night";
+    document.getElementById("pickReason").textContent = wxData
+        ? `${wxData.icon} ${wxData.temp}°C · ${wxData.cond} · ${timeStr} — weighted recommendation`
+        : "";
     document.getElementById("pickBanner").classList.add("visible");
 }
 
@@ -790,6 +898,7 @@ function init() {
     initSelects();
     render();
     document.getElementById("modalOverlay").addEventListener("click", e => { if (e.target.id === "modalOverlay") closeModal(); });
+    fetchWeather();
 }
 init();
 </script>
