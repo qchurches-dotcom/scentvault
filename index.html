@@ -243,6 +243,33 @@
     .pick-banner .pick-layering strong { color: var(--text-main); font-weight: 600; }
     .pick-banner .pick-layering .layering-target { color: var(--accent-blue); font-weight: 600; }
 
+    /* GitHub sync button */
+    .sync-btn { font-size: 0.78rem; min-width: 7rem; justify-content: center; transition: all 0.2s; }
+    .sync-btn.connected  { color: var(--accent-green); border-color: rgba(52,211,153,0.4); }
+    .sync-btn.saving     { color: var(--accent-amber); border-color: rgba(251,191,36,0.4); }
+    .sync-btn.sync-error { color: var(--danger);       border-color: rgba(248,113,113,0.4); }
+
+    /* GitHub settings modal */
+    .gh-overlay {
+        display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.75);
+        z-index: 2000; align-items: center; justify-content: center;
+    }
+    .gh-overlay.visible { display: flex; }
+    .gh-modal {
+        background: var(--bg-surface); border: 1px solid var(--border); border-radius: 12px;
+        padding: 1.5rem; max-width: 460px; width: 90%; box-shadow: 0 24px 64px rgba(0,0,0,0.6);
+    }
+    .gh-modal h3 { font-size: 1rem; margin-bottom: 0.6rem; }
+    .gh-modal p  { color: var(--text-muted); font-size: 0.8rem; line-height: 1.65; margin-bottom: 1rem; }
+    .gh-modal code { background: var(--bg-input); padding: 0.1rem 0.35rem; border-radius: 4px; font-size: 0.78rem; }
+    .gh-modal input[type="password"] {
+        width: 100%; background: var(--bg-input); border: 1px solid var(--border);
+        border-radius: 6px; padding: 0.55rem 0.8rem; color: var(--text-main);
+        font-size: 0.85rem; font-family: monospace; margin-bottom: 0.75rem;
+    }
+    .gh-modal input:focus { outline: none; border-color: var(--accent-blue); }
+    .gh-modal-actions { display: flex; gap: 0.5rem; justify-content: flex-end; }
+
     @media (max-width: 800px) { .detail-container { grid-template-columns: 1fr; } body { padding: 1rem; } .weather-reason { margin-left: 0; } }
 </style>
 </head>
@@ -262,6 +289,8 @@
             <input type="file" id="importFile" accept="application/json" style="display:none" onchange="importJSON(event)">
             <button class="btn" id="editToggleBtn" onclick="toggleEdit()">âœï¸ Edit Mode</button>
             <button class="btn" onclick="resetData()" title="Restore the original bundled dataset">â†º Reset</button>
+        </div>
+            <button class="btn sync-btn" id="syncBtn" onclick="openGhSettings()" title="GitHub auto-save settings">&#9729;&#65039; Connect</button>
         </div>
     </header>
 
@@ -519,16 +548,18 @@ let data = [];
 const filters = {family:"all", scenario:"all", houseCat:"all", status:"all"};
 let searchTerm = "", flagOnly = false, sortKey = null, sortDir = 1;
 
-const STORE_KEY = "scentvault_v2";
-
-function load() {
-    const raw = localStorage.getItem(STORE_KEY);
-    if (raw) { try { data = JSON.parse(raw); } catch(e) { data = seedCopy(); } }
-    else { data = seedCopy(); save(); }
-    data.forEach((d,i) => { if (!d.id) d.id = "f" + i + "_" + Math.floor(performance.now()*1000); });
+async function load() {
+    try {
+        const r = await fetch("./data.json?t=" + Date.now());
+        if (!r.ok) throw new Error("no data.json");
+        const d = await r.json();
+        data = d.map((item, i) => ({...item, id: item.id || "seed" + i}));
+    } catch(e) {
+        data = seedCopy();
+    }
 }
 function seedCopy() { return SEED.map((d,i) => ({...d, id: "seed" + i})); }
-function save() { localStorage.setItem(STORE_KEY, JSON.stringify(data)); }
+function save() { pushToGitHub(); }
 
 /* ============================ FILTER BAR BUILD ============================ */
 function buildFilterBar(containerId, dict, key) {
@@ -760,7 +791,7 @@ function saveEntry() {
     };
     if (id) { const i = data.findIndex(d=>d.id===id); rec.id = id; data[i] = rec; }
     else { rec.id = "f" + Date.now(); data.push(rec); }
-    save(); closeModal(); render();
+    closeModal(); render();
 }
 function deleteEntry(id) {
     const item = data.find(d=>d.id===id);
@@ -911,9 +942,97 @@ function pickForMe() {
     document.getElementById("pickBanner").classList.add("visible");
 }
 
+/* ============================ GITHUB SYNC ============================ */
+const GH_API = "https://api.github.com/repos/qchurches-dotcom/scentvault/contents/data.json";
+const GH_TOKEN_KEY = "svault_gh_token";
+let ghToken = localStorage.getItem(GH_TOKEN_KEY) || "";
+
+function openGhSettings() {
+    document.getElementById("ghTokenInput").value = ghToken;
+    document.getElementById("ghOverlay").classList.add("visible");
+}
+function closeGhSettings() {
+    document.getElementById("ghOverlay").classList.remove("visible");
+}
+function saveGhToken() {
+    const val = document.getElementById("ghTokenInput").value.trim();
+    if (!val) { alert("Please enter a token."); return; }
+    ghToken = val;
+    localStorage.setItem(GH_TOKEN_KEY, ghToken);
+    closeGhSettings();
+    pushToGitHub(); // bootstrap data.json immediately
+}
+function clearGhToken() {
+    if (!confirm("Remove GitHub token? Auto-save will stop (data loads fine, just won't save).")) return;
+    ghToken = "";
+    localStorage.removeItem(GH_TOKEN_KEY);
+    closeGhSettings();
+    setSyncStatus("idle");
+}
+
+function setSyncStatus(state, msg) {
+    const btn = document.getElementById("syncBtn");
+    if (!btn) return;
+    btn.className = "btn sync-btn";
+    if (state === "saving")  { btn.classList.add("saving");     btn.textContent = "⏳ Saving…"; }
+    else if (state === "saved")   { btn.classList.add("connected");  btn.textContent = "✓ Synced";
+        setTimeout(() => setSyncStatus("idle"), 3000); }
+    else if (state === "error")   { btn.classList.add("sync-error"); btn.textContent = "❌ " + (msg || "Failed"); }
+    else { /* idle */
+        if (ghToken) { btn.classList.add("connected"); btn.textContent = "☁️ Connected"; }
+        else { btn.textContent = "☁️ Connect"; }
+    }
+}
+
+async function pushToGitHub() {
+    if (!ghToken) { setSyncStatus("idle"); return; }
+    setSyncStatus("saving");
+    try {
+        // Get current file SHA (needed for updates; omit for first-time creation)
+        let sha;
+        const getRes = await fetch(GH_API, {
+            headers: { "Authorization": "token " + ghToken, "Accept": "application/vnd.github.v3+json" }
+        });
+        if (getRes.ok) {
+            const info = await getRes.json();
+            sha = info.sha;
+        } else if (getRes.status !== 404) {
+            const err = await getRes.json();
+            throw new Error(err.message || ("GET " + getRes.status));
+        }
+
+        // Serialise current data (strip runtime id fields)
+        const clean = data.map(({ id, ...rest }) => rest);
+        const json = JSON.stringify(clean, null, 2);
+
+        // Encode to base64 (handles Unicode correctly)
+        const encoded = btoa(unescape(encodeURIComponent(json)));
+
+        // Push
+        const body = { message: "Update ScentVault data", content: encoded };
+        if (sha) body.sha = sha;
+
+        const putRes = await fetch(GH_API, {
+            method: "PUT",
+            headers: {
+                "Authorization": "token " + ghToken,
+                "Accept": "application/vnd.github.v3+json",
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(body)
+        });
+        if (!putRes.ok) {
+            const err = await putRes.json();
+            throw new Error(err.message || ("PUT " + putRes.status));
+        }
+        setSyncStatus("saved");
+    } catch(e) {
+        setSyncStatus("error", e.message);
+    }
+}
 /* ============================ INIT ============================ */
-function init() {
-    load();
+async function init() {
+    await load();
     buildFilterBar("family-filters", FAMILY, "family");
     buildFilterBar("scenario-filters", SCENARIO, "scenario");
     buildFilterBar("house-filters", HOUSECAT, "houseCat");
@@ -921,9 +1040,25 @@ function init() {
     initSelects();
     render();
     document.getElementById("modalOverlay").addEventListener("click", e => { if (e.target.id === "modalOverlay") closeModal(); });
+    document.getElementById("ghOverlay").addEventListener("click", e => { if (e.target.id === "ghOverlay") closeGhSettings(); });
+    setSyncStatus("idle");
     fetchWeather();
 }
 init();
 </script>
-</body>
+
+<!-- GitHub Sync Settings Modal -->
+<div class="gh-overlay" id="ghOverlay">
+    <div class="gh-modal">
+        <h3>&#9729;&#65039; GitHub Auto-Save</h3>
+        <p>Every Save / Delete / Import pushes your data directly to GitHub Pages as <code>data.json</code>. Changes go live in ~30 seconds everywhere.<br><br>
+        Create a <strong>Personal Access Token</strong> at <code>github.com → Settings → Developer settings → Personal access tokens</code>. Use a fine-grained token with <strong>Contents: Read &amp; write</strong> on the <code>scentvault</code> repo (or a classic token with <code>public_repo</code> scope). The token is stored only in this browser — never in the public HTML file.</p>
+        <input type="password" id="ghTokenInput" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" autocomplete="off" spellcheck="false">
+        <div class="gh-modal-actions">
+            <button class="btn" onclick="clearGhToken()" style="color:var(--danger)">&#128465; Remove</button>
+            <button class="btn" onclick="closeGhSettings()">Cancel</button>
+            <button class="btn btn-primary" onclick="saveGhToken()">Save &amp; Connect</button>
+        </div>
+    </div>
+</div></body>
 </html>
