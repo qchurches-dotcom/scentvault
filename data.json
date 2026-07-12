@@ -29,13 +29,14 @@
     "status": "owned",
     "perf": "beast",
     "price": null,
+    "rating": 10,
     "top": "Grapefruit, Lemon Sorbet, Bergamot",
     "heart": "Spicy Accords, Ginger, Powdery Notes",
     "base": "Ambergris, Dry Woods, Cedarwood",
     "longevity": "7 - 8 Hours",
     "projection": "Moderate - Strong",
-    "review": "Smooth, slightly sweeter take on the Tygar DNA. Lacks the synthetic sting of cheaper freshies; clean linen and bright rind.",
     "layering": "",
+    "review": "Smooth, slightly sweeter take on the Tygar DNA. Lacks the synthetic sting of cheaper freshies; clean linen and bright rind.",
     "flag": ""
   },
   {
