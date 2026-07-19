@@ -189,7 +189,8 @@
     "projection": "Moderate / Close",
     "review": "Light, airy Mediterranean freshness. Clean neroli and orange blossom with a pink pepper lift over a soft patchouli base — easygoing warm-weather casual.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Light, airy Mediterranean freshness. Clean neroli and orange blossom with a pink pepper lift over a soft patchouli base — easygoing warm-weather casual."
   },
   {
     "name": "Jean Lowe Immortel",
@@ -230,7 +231,9 @@
     "projection": "Strong / Linear",
     "review": "More linear and ambroxan-heavy than Jean Lowe Immortel. Budget office staple — ginger-grapefruit over a thick ambroxan amber base.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "More linear and ambroxan-heavy than Jean Lowe Immortel. Budget office staple — ginger-grapefruit over a thick ambroxan amber base.",
+    "season": "spring, summer"
   },
   {
     "name": "Parfum D'Hommes Sport",
@@ -249,7 +252,9 @@
     "projection": "Moderate / Close",
     "review": "Clean, slightly metallic Dior Homme Sport replica. Elemi resin adds a resinous citrus edge over a woody frankincense base. Casual and unobtrusive.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Clean, slightly metallic Dior Homme Sport replica. Elemi resin adds a resinous citrus edge over a woody frankincense base. Casual and unobtrusive.",
+    "season": "spring, summer, fall"
   },
   {
     "name": "Fusion Intense",
@@ -268,7 +273,8 @@
     "projection": "Moderate / Close",
     "review": "Light coconut-citrus fusion with rosemary and geranium heart. Ambroxan provides a clean mineral base. Beach casual or light office wear.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Light coconut-citrus fusion with rosemary and geranium heart. Ambroxan provides a clean mineral base. Beach casual or light office wear."
   },
   {
     "name": "Al Dirgham Limited Edition",
@@ -287,7 +293,9 @@
     "projection": "Moderate / Soft",
     "review": "Warm, sunny Allure Homme Sport adjacent. Creamy lemon and lemongrass opening into a soft floral heart; vanilla and tonka give a sweet, approachable drydown.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Warm, sunny Allure Homme Sport adjacent. Creamy lemon and lemongrass opening into a soft floral heart; vanilla and tonka give a sweet, approachable drydown.",
+    "season": "spring, summer"
   },
   {
     "name": "Island Dreams",
@@ -306,7 +314,9 @@
     "projection": "Moderate / Close",
     "review": "Simple, pleasant LV Symphony-adjacent. Fresh ginger-bergamot with a grapefruit sparkle over clean ambroxan — light and easy casual wear.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Simple, pleasant LV Symphony-adjacent. Fresh ginger-bergamot with a grapefruit sparkle over clean ambroxan — light and easy casual wear.",
+    "season": "summer"
   },
   {
     "name": "Pinnace Oryn",
@@ -325,7 +335,9 @@
     "projection": "Light / Close Skin",
     "review": "Light Afternoon Swim clone. Mandarin-bergamot with a ginger sparkle over an ambergris whisper — casual warm-weather choice.",
     "layering": "Spray over {Oud Madness} to pull a fresh citrus burst over the base notes.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Light Afternoon Swim clone. Mandarin-bergamot with a ginger sparkle over an ambergris whisper — casual warm-weather choice.",
+    "season": "summer"
   },
   {
     "name": "Shiyaaka Snow",
@@ -344,7 +356,9 @@
     "projection": "Moderate / Clean",
     "review": "SMW-adjacent icy freshness. Pink pepper and bergamot over a clean cardamom-vetiver base with a nutmeg spice note. Closer to SMW than a Reflection hybrid.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "SMW-adjacent icy freshness. Pink pepper and bergamot over a clean cardamom-vetiver base with a nutmeg spice note. Closer to SMW than a Reflection hybrid.",
+    "season": "spring, summer"
   },
   {
     "name": "Night Club Silver",
@@ -363,7 +377,9 @@
     "projection": "Moderate / Clean",
     "review": "Silver Mountain Water inspired. Violet leaf and ginger give an inky green freshness; blackcurrant adds a tart metallic edge over a white musk-cedar base. Mountain-air aura without screech.",
     "layering": "Layer over {Divin Vert} for a metallic green-citrus lift above the earthy oakmoss chypre.",
-    "flag": "⚠️ AUDIT: Prior notes were Creed SMW's Fragrantica listing copied verbatim. Updated to actual clone notes from Fragrantica. Green Tea note not confirmed for this clone."
+    "flag": "⚠️ AUDIT: Prior notes were Creed SMW's Fragrantica listing copied verbatim. Updated to actual clone notes from Fragrantica. Green Tea note not confirmed for this clone.",
+    "consensus": "Silver Mountain Water inspired. Violet leaf and ginger give an inky green freshness; blackcurrant adds a tart metallic edge over a white musk-cedar base. Mountain-air aura without screech.",
+    "season": "spring, summer"
   },
   {
     "name": "La Uno Forever Blue",
@@ -382,7 +398,9 @@
     "projection": "Moderate / Close",
     "review": "Pleasant D&G Light Blue Forever riff. Ozonic violet leaf over a clean white musk-vetiver base — breezy and uncomplicated.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Pleasant D&G Light Blue Forever riff. Ozonic violet leaf over a clean white musk-vetiver base — breezy and uncomplicated.",
+    "season": "spring, summer"
   },
   {
     "name": "Daring Blue For Life",
@@ -401,7 +419,9 @@
     "projection": "Light / Close Skin",
     "review": "The weaker sibling to La Uno Forever Blue. Grapefruit rind and salt water fade quickly — use as a top-note refresher rather than a standalone wear.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "The weaker sibling to La Uno Forever Blue. Grapefruit rind and salt water fade quickly — use as a top-note refresher rather than a standalone wear.",
+    "season": "spring, summer"
   },
   {
     "name": "Pacific Blue (Porto Neroli)",
@@ -420,7 +440,9 @@
     "projection": "Moderate / Close",
     "review": "Clean, airy Neroli Portofino adjacent. Bitter orange and neroli over a jasmine heart with soft amber musk — bright Mediterranean freshness.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Clean, airy Neroli Portofino adjacent. Bitter orange and neroli over a jasmine heart with soft amber musk — bright Mediterranean freshness.",
+    "season": "spring, summer"
   },
   {
     "name": "Missoni Wave",
@@ -440,7 +462,9 @@
     "projection": "Moderate / Close",
     "layering": "Layer over {Ajmal Evoke Gold for Him} for an upscale luxury barbershop soap profile.",
     "review": "Clean sporty sea-salt freshness with a rosemary-clary sage backbone. Cedar and vetiver add a dry woody finish. Versatile casual wear.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Clean sporty sea-salt freshness with a rosemary-clary sage backbone. Cedar and vetiver add a dry woody finish. Versatile casual wear.",
+    "season": "spring, summer"
   },
   {
     "name": "Nautica Voyage",
@@ -459,7 +483,9 @@
     "projection": "Moderate / Close",
     "review": "Timeless green aquatic classic. Crisp apple and lotus over clean oakmoss and cedar — the definitive budget freshie and a crowd-pleaser at any age.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Timeless green aquatic classic. Crisp apple and lotus over clean oakmoss and cedar — the definitive budget freshie and a crowd-pleaser at any age.",
+    "season": "spring, summer"
   },
   {
     "name": "Versace Pour Homme",
@@ -478,7 +504,9 @@
     "projection": "Moderate / Clean",
     "review": "Classy, understated Mediterranean signature. Crisp lemon-neroli over hyacinth and sage with a warm tonka-musk base — professional and inoffensive.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Classy, understated Mediterranean signature. Crisp lemon-neroli over hyacinth and sage with a warm tonka-musk base — professional and inoffensive.",
+    "season": "spring, summer"
   },
   {
     "name": "L'Eau d'Issey Pour Homme",
@@ -498,7 +526,9 @@
     "projection": "Moderate / Close",
     "layering": "",
     "review": "Iconic aromatic yuzu classic. Bright citrus-sage opening with a nutmeg-lotus heart over Tahitian vetiver. A foundational scent that influenced a generation of freshies.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Iconic aromatic yuzu classic. Bright citrus-sage opening with a nutmeg-lotus heart over Tahitian vetiver. A foundational scent that influenced a generation of freshies.",
+    "season": "spring, summer"
   },
   {
     "name": "Aether Extrait",
@@ -518,7 +548,9 @@
     "projection": "Moderate / Intimate",
     "layering": "Overlay over {Montblanc Explorer} to create an exceptional professional clean sillage field.",
     "review": "PdM Greenley adjacent with improving projection as the bottle matures. Clean lavender-violet heart over a clearwood-amberwood base — polished and professional.",
-    "flag": ""
+    "flag": "",
+    "consensus": "PdM Greenley adjacent with improving projection as the bottle matures. Clean lavender-violet heart over a clearwood-amberwood base — polished and professional.",
+    "season": "spring, summer"
   },
   {
     "name": "Citadel",
@@ -537,7 +569,8 @@
     "projection": "Moderate / Good Sillage",
     "review": "Polished BdC-adjacent woody aromatic. Dry cedar and incense with a grapefruit-peppermint opening and long vetiver drydown. Professional and versatile.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Polished BdC-adjacent woody aromatic. Dry cedar and incense with a grapefruit-peppermint opening and long vetiver drydown. Professional and versatile."
   },
   {
     "name": "Club De Nuit Iconic",
@@ -556,7 +589,9 @@
     "projection": "Moderate / Strong",
     "review": "Armaf's premium BdC EDP interpretation. Nuttier and richer than CDN Intense Man — excellent office-to-date bridge with ginger-nutmeg complexity and long incense-vetiver drydown.",
     "layering": "Base layer under {Afnan Rare Carbon} for an incredible clean leather trail.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Armaf's premium BdC EDP interpretation. Nuttier and richer than CDN Intense Man — excellent office-to-date bridge with ginger-nutmeg complexity and long incense-vetiver drydown.",
+    "season": "spring, summer, fall"
   },
   {
     "name": "Maitre De Blue",
@@ -575,7 +610,8 @@
     "projection": "Light / Fading",
     "review": "Budget BdC EDT riff. Accurate opening that fades quickly — better used as a trigger layer under a stronger scent than worn standalone.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Budget BdC EDT riff. Accurate opening that fades quickly — better used as a trigger layer under a stronger scent than worn standalone."
   },
   {
     "name": "Yeah! Man",
@@ -594,7 +630,9 @@
     "projection": "Moderate / Clean",
     "review": "Reliable YSL Y alternative. Clean apple-ginger over sage and juniper with an amberwood-tonka base. Professional, safe, and crowd-pleasing.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Reliable YSL Y alternative. Clean apple-ginger over sage and juniper with an amberwood-tonka base. Professional, safe, and crowd-pleasing.",
+    "season": "spring, summer, fall"
   },
   {
     "name": "Armaf Odyssey Mega",
@@ -613,7 +651,9 @@
     "projection": "Moderate / Clean",
     "review": "Versatile YSL Y twist with Armaf's characteristic tonka-cedar depth. Ginger-bergamot over juniper-sage — a step warmer and spicier than standard Y.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Versatile YSL Y twist with Armaf's characteristic tonka-cedar depth. Ginger-bergamot over juniper-sage — a step warmer and spicier than standard Y.",
+    "season": "spring, summer"
   },
   {
     "name": "Sheikh Al Shuyukh Final Ed.",
@@ -632,7 +672,9 @@
     "projection": "Strong / Assertive",
     "review": "Beast-mode YSL Y Intense inspired. Heavy apple-sage core with extra patchouli and amber ballast — bolder and darker than standard Y clones.",
     "layering": "Pair with {Khamrah Qahwa} for a rich, warm gourmet apple-pie output.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Beast-mode YSL Y Intense inspired. Heavy apple-sage core with extra patchouli and amber ballast — bolder and darker than standard Y clones.",
+    "season": "spring, summer, fall"
   },
   {
     "name": "Armaf Odyssey Aqua",
@@ -651,7 +693,9 @@
     "projection": "Moderate / Clean",
     "review": "Invictus Platinum inspired. Clean, airy mint and lavender over an ambroxan-patchouli base — professional freshness without the aquatic density.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Invictus Platinum inspired. Clean, airy mint and lavender over an ambroxan-patchouli base — professional freshness without the aquatic density.",
+    "season": "spring, summer"
   },
   {
     "name": "Dumont Nitro Red",
@@ -670,7 +714,9 @@
     "projection": "Heavy / Loud",
     "review": "Clubbing powerhouse hybrid. Sweet watermelon-strawberry bomb over amber-vanilla base — polarising but undeniably loud. Best in cold weather clubbing contexts.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Clubbing powerhouse hybrid. Sweet watermelon-strawberry bomb over amber-vanilla base — polarising but undeniably loud. Best in cold weather clubbing contexts.",
+    "season": "spring, summer, fall"
   },
   {
     "name": "Armaf Odyssey Tyrant",
@@ -689,7 +735,9 @@
     "projection": "Strong / Assertive",
     "review": "Unique Tygar-Sauvage fusion. Ambroxan-driven with elemi citrus, geranium, and lavender over an amber-woody base. Beast performance with sophisticated office-to-evening versatility.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Unique Tygar-Sauvage fusion. Ambroxan-driven with elemi citrus, geranium, and lavender over an amber-woody base. Beast performance with sophisticated office-to-evening versatility.",
+    "season": "spring, summer, fall"
   },
   {
     "name": "Coach Platinum",
@@ -708,7 +756,9 @@
     "projection": "Moderate / Clean",
     "review": "Clean professional scent with a pineapple-juniper lift. Cashmeran and sage heart gives a smooth aromatic character; vanilla and leather base adds warmth.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Clean professional scent with a pineapple-juniper lift. Cashmeran and sage heart gives a smooth aromatic character; vanilla and leather base adds warmth.",
+    "season": "fall, winter, spring"
   },
   {
     "name": "Narciso Rodriguez Bleu Noir",
@@ -727,7 +777,9 @@
     "projection": "Moderate / Intimate",
     "review": "Sophisticated musky blue with excellent date-night appeal. Dense cardamom and nutmeg open into a musk-dominant heart over an ebony-cedar base — intimate and distinctive.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Sophisticated musky blue with excellent date-night appeal. Dense cardamom and nutmeg open into a musk-dominant heart over an ebony-cedar base — intimate and distinctive.",
+    "season": "fall, winter, spring"
   },
   {
     "name": "Versace Dylan Blue",
@@ -746,7 +798,9 @@
     "projection": "Moderate / Good Sillage",
     "review": "Reliable casual-to-office blue. Bergamot and fig leaf open into a violet-papyrus heart with a mineral musk-tonka-saffron base. Versatile and crowd-pleasing.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Reliable casual-to-office blue. Bergamot and fig leaf open into a violet-papyrus heart with a mineral musk-tonka-saffron base. Versatile and crowd-pleasing.",
+    "season": "spring, summer"
   },
   {
     "name": "Platine Blanc",
@@ -765,7 +819,9 @@
     "projection": "Moderate / Clean Radiance",
     "review": "Ice-cold Torino 21 adjacent. Fizzy tonic water and crushed mint open over a blackcurrant-jasmine heart; sandalwood and oakmoss anchor the drydown. Understated office elegance.",
     "layering": "Apply over {Sovereign} for an icy tonic-mint top above the rich leather-sandalwood drydown.",
-    "flag": "⚠️ AUDIT: Prior data had wrong inspiration ('luxury soap') and fabricated Iris/Aldehyde notes. Corrected to Xerjoff Torino 21 clone — verify this is the correct product you ordered."
+    "flag": "⚠️ AUDIT: Prior data had wrong inspiration ('luxury soap') and fabricated Iris/Aldehyde notes. Corrected to Xerjoff Torino 21 clone — verify this is the correct product you ordered.",
+    "consensus": "Ice-cold Torino 21 adjacent. Fizzy tonic water and crushed mint open over a blackcurrant-jasmine heart; sandalwood and oakmoss anchor the drydown. Understated office elegance.",
+    "season": "spring, summer"
   },
   {
     "name": "Qaed Al Fursan",
@@ -784,7 +840,9 @@
     "projection": "Moderate / Strong",
     "review": "Budget pineapple powerhouse. Non-smoky, hyper-juicy pineapple-saffron opening over balsam fir and cedar oud — an outstanding layering base that amplifies any dark woody foundation.",
     "layering": "Layer directly over {Afnan Rare Carbon} or {Lattafa Asad} to inject an intense, sweet fruit top note.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Budget pineapple powerhouse. Non-smoky, hyper-juicy pineapple-saffron opening over balsam fir and cedar oud — an outstanding layering base that amplifies any dark woody foundation.",
+    "season": "spring, summer, fall"
   },
   {
     "name": "Shiyaaka for Men",
@@ -803,26 +861,30 @@
     "projection": "Strong / Enveloping",
     "review": "Amouage Reflection Man alternative at a fraction of the price. Dense iris-jasmine floral heart over a rich patchouli-sandalwood base. Beast performance and a genuinely luxurious feel.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Amouage Reflection Man alternative at a fraction of the price. Dense iris-jasmine floral heart over a rich patchouli-sandalwood base. Beast performance and a genuinely luxurious feel.",
+    "season": "spring, summer"
   },
   {
     "name": "Supremacy Collector's Ed.",
     "house": "Afnan",
-    "inspiration": "Creed Aventus / Nishane Hacivat",
+    "inspiration": "Creed Aventus Absolu-style fruity birch/ambergris profile (community comparison; not an official clone claim)",
     "family": "aventus",
     "scenario": "formal",
     "houseCat": "creed",
     "status": "owned",
     "perf": "beast",
     "price": null,
-    "top": "Pineapple, Bergamot, Blackcurrant",
-    "heart": "Birchwood, Jasmine, Patchouli",
-    "base": "Ambergris, Oakmoss, Vanilla",
+    "top": "Pineapple, Bergamot, Apple, White Flowers",
+    "heart": "Orange Blossom, Birch, Amber",
+    "base": "Oakmoss, Musk, Ambergris",
     "longevity": "8+ Hours",
     "projection": "Strong",
-    "review": "Afnan's premium tier, praised for richer oil concentrations that eliminate synthetic chemical openings.",
+    "review": "Afnan's published pyramid supports a polished pineapple-birch-ambergris profile with white-floral lift. It is safer to describe this as Aventus Absolu-adjacent than as a firm Aventus/Hacivat hybrid.",
     "layering": "Layer heavily over {Lattafa Asad} (3:2 sprays) to compile a rich, modern footprint.",
-    "flag": "Source files differ on exact name (Supremacy Series vs Collector's Ed.) — confirm which you own."
+    "flag": "Source files differ on exact name (Supremacy Series vs Collector's Ed.) — confirm which you own.",
+    "consensus": "Consensus places it in modern Aventus/Absolu Aventus territory: fruitier and smoother than many smoky Aventus clones, with birch, oakmoss, musk and ambergris. Exact Hacivat positioning is not sufficiently supported.",
+    "season": "spring, summer, fall"
   },
   {
     "name": "Club De Nuit Intense Man",
@@ -841,7 +903,9 @@
     "projection": "Heavy / Room-filling",
     "review": "The legendary entry-level Aventus clone. Smoky birch and pineapple with extraordinary beast-mode performance — arguably the best value-to-quality fragrance on the market.",
     "layering": "Overlay over {Liquid Brun} to buffer heavy smoke with dense gourmet vanilla.",
-    "flag": ""
+    "flag": "",
+    "consensus": "The legendary entry-level Aventus clone. Smoky birch and pineapple with extraordinary beast-mode performance — arguably the best value-to-quality fragrance on the market.",
+    "season": "fall, winter"
   },
   {
     "name": "Montblanc Explorer",
@@ -860,7 +924,9 @@
     "projection": "Moderate / Refined",
     "review": "Smooth, polished Aventus-adjacent. Pink pepper and sage over haitian vetiver-leather with an ambroxan-akigalawood base — office-safe, inoffensive, and well-executed.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Smooth, polished Aventus-adjacent. Pink pepper and sage over haitian vetiver-leather with an ambroxan-akigalawood base — office-safe, inoffensive, and well-executed.",
+    "season": "spring, summer, fall"
   },
   {
     "name": "Ajmal Evoke Gold for Him",
@@ -879,7 +945,9 @@
     "projection": "Moderate / Clean",
     "review": "Elegant Prada L'Homme-inspired. Black pepper and neroli over an iris-geranium heart with patchouli-cedar base — refined, professional, and understated.",
     "layering": "Base layer under {Missoni Wave} for an elegant laundry-style finish.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Elegant Prada L'Homme-inspired. Black pepper and neroli over an iris-geranium heart with patchouli-cedar base — refined, professional, and understated.",
+    "season": "fall, winter, spring"
   },
   {
     "name": "Dark Door Intense",
@@ -898,7 +966,8 @@
     "projection": "Moderate / Refined",
     "review": "Faithful Dior Homme Intense clone. Lavender over an iris-root-pear heart with virginia cedar and vetiver base — refined, formal, and polished without the designer price tag.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Faithful Dior Homme Intense clone. Lavender over an iris-root-pear heart with virginia cedar and vetiver base — refined, formal, and polished without the designer price tag."
   },
   {
     "name": "Night Club (Free Gift)",
@@ -917,7 +986,9 @@
     "projection": "Moderate",
     "review": "Well-balanced Aventus profile. Smooth transitions from juicy pineapple opening to dry, masculine smoky birch core. Free gift.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Well-balanced Aventus profile. Smooth transitions from juicy pineapple opening to dry, masculine smoky birch core. Free gift.",
+    "season": "fall, spring"
   },
   {
     "name": "Confidential Platinum",
@@ -936,7 +1007,8 @@
     "projection": "Moderate / Refined",
     "review": "Chanel Platinum Égoïste tribute. Classic barbershop rosemary-lavender backbone over clary sage and jasmine with an oakmoss-vetiver base. Timeless masculine elegance.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Chanel Platinum Égoïste tribute. Classic barbershop rosemary-lavender backbone over clary sage and jasmine with an oakmoss-vetiver base. Timeless masculine elegance."
   },
   {
     "name": "Maison Alhambra Toro",
@@ -955,7 +1027,9 @@
     "projection": "Moderate / Earthy",
     "review": "Faithful Terre d'Hermès clone. Dirty orange-grapefruit opening over a classic earthy vetiver and patchouli base. Solid office signature.",
     "layering": "Base layer under {Turathi Blue} to cleanly update traditional mineral accords.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Faithful Terre d'Hermès clone. Dirty orange-grapefruit opening over a classic earthy vetiver and patchouli base. Solid office signature.",
+    "season": "spring, summer, fall"
   },
   {
     "name": "Afnan Rare Carbon",
@@ -974,7 +1048,9 @@
     "projection": "Moderate / Strong",
     "review": "Ombre Leather alternative with oud complexity. Smoky leather-violet-cinnamon opening with a rose-cedar heart over amber-sandalwood-vetiver. Dark and seductive.",
     "layering": "Base layer under {Club De Nuit Iconic} for a sharp citrus-leather fusion.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Ombre Leather alternative with oud complexity. Smoky leather-violet-cinnamon opening with a rose-cedar heart over amber-sandalwood-vetiver. Dark and seductive.",
+    "season": "fall, winter, spring"
   },
   {
     "name": "Supreme L'homme Extreme",
@@ -993,7 +1069,9 @@
     "projection": "Moderate / Seductive",
     "review": "Guerlain Idéal Extrême inspired. Almond-plum-cinnamon opening with a heliotrope heart over a tobacco-leather-patchouli base — dark, seductive, and well-suited to evening dates.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Guerlain Idéal Extrême inspired. Almond-plum-cinnamon opening with a heliotrope heart over a tobacco-leather-patchouli base — dark, seductive, and well-suited to evening dates.",
+    "season": "fall, winter"
   },
   {
     "name": "Montblanc Legend EDP",
@@ -1012,7 +1090,9 @@
     "projection": "Moderate / Clean",
     "review": "Modern leather fougère. Violet leaf and jasmine-magnolia over a clean leather-oakmoss base — refined and versatile for office or casual wear.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Modern leather fougère. Violet leaf and jasmine-magnolia over a clean leather-oakmoss base — refined and versatile for office or casual wear.",
+    "season": "spring, summer, fall"
   },
   {
     "name": "Montblanc Legend EDT",
@@ -1031,7 +1111,9 @@
     "projection": "Moderate / Close",
     "review": "Classic aromatic fougère. Lavender-pineapple-red apple over oakmoss and tonka-sandalwood — a safe, office-friendly signature that almost anyone will like.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Classic aromatic fougère. Lavender-pineapple-red apple over oakmoss and tonka-sandalwood — a safe, office-friendly signature that almost anyone will like.",
+    "season": "fall, winter, spring"
   },
   {
     "name": "Cuba Gold",
@@ -1050,7 +1132,9 @@
     "projection": "Moderate / Close",
     "review": "Budget JPG Le Male riff. Lavender-mint-cinnamon over a vanilla tonka base — classic fougère structure at a very accessible price point.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Budget JPG Le Male riff. Lavender-mint-cinnamon over a vanilla tonka base — classic fougère structure at a very accessible price point.",
+    "season": "fall, winter"
   },
   {
     "name": "CK Euphoria Men",
@@ -1069,7 +1153,9 @@
     "projection": "Light / Close Skin",
     "review": "Spicy-fresh CK accent. Ginger-pepper over black basil and sage with an amber-suede-patchouli base. Fades fast but is well-structured for intimate evening wear.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Spicy-fresh CK accent. Ginger-pepper over black basil and sage with an amber-suede-patchouli base. Fades fast but is well-structured for intimate evening wear.",
+    "season": "fall, winter"
   },
   {
     "name": "Sui Generis",
@@ -1083,12 +1169,14 @@
     "price": 35,
     "top": "Nutmeg, Clary Sage, Peppermint",
     "heart": "Narcissus, Coffee, Orris",
-    "base": "Vanilla, Palo Santo Wood, Cedarwood",
+    "base": "Vetiver, Sandalwood, Cedarwood, Vanilla",
     "longevity": "7 Hours",
     "projection": "Moderate / Polite",
     "review": "Workspace winner. Coffee and orris give a clean, slightly roasted powdery character over a smooth palo santo vanilla base — more sophisticated than standard ambroxan freshies.",
     "layering": "Base layer under {Khamrah Qahwa} to deepen the roasted-coffee heart with candied dates and praline.",
-    "flag": "⚠️ AUDIT: Heart notes corrected — Coffee and Orris are the DNA markers of Gentleman Society Extreme. Prior notes (Haitian & Madagascar Vetiver) were wrong. Inspiration updated to Extreme variant (not standard GS)."
+    "flag": "⚠️ AUDIT: Heart notes corrected — Coffee and Orris are the DNA markers of Gentleman Society Extreme. Prior notes (Haitian & Madagascar Vetiver) were wrong. Inspiration updated to Extreme variant (not standard GS).",
+    "consensus": "Direct catalogue data supports nutmeg, clary sage and peppermint over narcissus, coffee and orris, drying to vetiver, sandalwood, cedarwood and vanilla. Performance reports remain community-dependent.",
+    "season": "fall, winter"
   },
   {
     "name": "Divin Vert",
@@ -1107,7 +1195,9 @@
     "projection": "Strong",
     "review": "Heavy, complex, masterfully balanced masculine chypre. Self-assured alpha aura: pineapple over bitter leather, dark tobacco, damp moss.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Heavy, complex, masterfully balanced masculine chypre. Self-assured alpha aura: pineapple over bitter leather, dark tobacco, damp moss.",
+    "season": "fall, winter"
   },
   {
     "name": "Armaf Checkmate",
@@ -1126,7 +1216,9 @@
     "projection": "Moderate / Strong",
     "review": "JPG Scandal Pour Homme clone done right. Rich caramel and roasted tonka over earthy vetiver — playful yet unmistakably masculine. Good cold-weather date or clubbing option.",
     "layering": "Overlay over {Afnan Rare Carbon} to wrap dark, dry leather inside a rich caramel cloud.",
-    "flag": ""
+    "flag": "",
+    "consensus": "JPG Scandal Pour Homme clone done right. Rich caramel and roasted tonka over earthy vetiver — playful yet unmistakably masculine. Good cold-weather date or clubbing option.",
+    "season": "fall, winter"
   },
   {
     "name": "Liam Grey",
@@ -1145,7 +1237,8 @@
     "projection": "Moderate / Intimate",
     "review": "BDK Gris Charnel inspired. Creamy fig and black tea over powdery iris-labdanum with bourbon vanilla and patchouli — sophisticated and intimate date-night elegance.",
     "layering": "Mingle with {Liquid Brun} for an exceptionally deep, sweet, spiced vanilla-tea sillage cloud.",
-    "flag": ""
+    "flag": "",
+    "consensus": "BDK Gris Charnel inspired. Creamy fig and black tea over powdery iris-labdanum with bourbon vanilla and patchouli — sophisticated and intimate date-night elegance."
   },
   {
     "name": "Mauzoon",
@@ -1164,7 +1257,9 @@
     "projection": "Moderate / Enveloping",
     "review": "Rich Middle Eastern saffron-oud original. Peach and vanilla soften the saffron opening while oud and patchouli add depth in the base — warm, distinctive, and effortlessly luxurious.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Rich Middle Eastern saffron-oud original. Peach and vanilla soften the saffron opening while oud and patchouli add depth in the base — warm, distinctive, and effortlessly luxurious.",
+    "season": "fall, winter"
   },
   {
     "name": "Olfactory Bonfire",
@@ -1183,7 +1278,9 @@
     "projection": "Moderate / Enveloping",
     "review": "MM Replica By The Fireplace clone with beast performance. Chestnut and guaiac wood over cloves and juniper; vanilla and peru balsam give a warm, smoky-sweet amber finish.",
     "layering": "Layer behind {Khamrah Qahwa} to elevate the roasted coffee with smoky-chestnut embers.",
-    "flag": ""
+    "flag": "",
+    "consensus": "MM Replica By The Fireplace clone with beast performance. Chestnut and guaiac wood over cloves and juniper; vanilla and peru balsam give a warm, smoky-sweet amber finish.",
+    "season": "fall, winter"
   },
   {
     "name": "Nuke 2.0",
@@ -1202,7 +1299,8 @@
     "projection": "Enormous / Room-filling",
     "review": "Spicebomb Infrared beast at budget pricing. Red chili and cinnamon bomb with tobacco-benzoin drydown — loud, unapologetic, and made for cold-weather clubbing.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Spicebomb Infrared beast at budget pricing. Red chili and cinnamon bomb with tobacco-benzoin drydown — loud, unapologetic, and made for cold-weather clubbing."
   },
   {
     "name": "Mousuf",
@@ -1221,7 +1319,8 @@
     "projection": "Moderate / Warm",
     "review": "Unique chocolate-grape oud blend. Dark plum-grape with subtle chocolate over a guaiac wood sandalwood base — unexpectedly distinctive for casual cold-weather wear.",
     "layering": "Pair alongside {Pinnace Oryn} to contrast dark chocolate-grape notes with bright orange.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Unique chocolate-grape oud blend. Dark plum-grape with subtle chocolate over a guaiac wood sandalwood base — unexpectedly distinctive for casual cold-weather wear."
   },
   {
     "name": "Royal Blend",
@@ -1240,7 +1339,8 @@
     "projection": "Strong / Enveloping",
     "review": "Angels' Share inspired. Cognac-cinnamon-plum over a warm myrrh-iris heart with a vanilla-tonka-sandalwood base — opulent, boozy, and absolutely cold-weather date material.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Angels' Share inspired. Cognac-cinnamon-plum over a warm myrrh-iris heart with a vanilla-tonka-sandalwood base — opulent, boozy, and absolutely cold-weather date material."
   },
   {
     "name": "Khamrah Qahwa",
@@ -1259,7 +1359,8 @@
     "projection": "Room-filling",
     "review": "Addictive cold-weather stunner. Dark roasted coffee over the syrupy candied-date base of Khamrah, cutting back the baseline sweetness.",
     "layering": "Base layer under {Sheikh Al Shuyukh Final Ed.} for spiced bakery sillage.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Addictive cold-weather stunner. Dark roasted coffee over the syrupy candied-date base of Khamrah, cutting back the baseline sweetness."
   },
   {
     "name": "Oud Madness",
@@ -1278,7 +1379,8 @@
     "projection": "Heavy / Enveloping",
     "review": "Dark, opulent oud-leather. Passionfruit and saffron open over a thick oud-patchouli heart with leather-amber-vanilla base — statement formal wear.",
     "layering": "Base layer under {Pinnace Oryn} to contrast a fresh orange burst against deep oud.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Dark, opulent oud-leather. Passionfruit and saffron open over a thick oud-patchouli heart with leather-amber-vanilla base — statement formal wear."
   },
   {
     "name": "Glorious Oud Royal Blanc",
@@ -1297,7 +1399,8 @@
     "projection": "Moderate / Airy",
     "review": "Clean white musk interpretation. Magnolia and blackcurrant over a soft musk-mandarin heart with sandalwood and patchouli base — understated and versatile for office.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Clean white musk interpretation. Magnolia and blackcurrant over a soft musk-mandarin heart with sandalwood and patchouli base — understated and versatile for office."
   },
   {
     "name": "Zenith",
@@ -1316,7 +1419,8 @@
     "projection": "Moderate / Cozy",
     "review": "Mind Games Queening inspired. Creamy vanilla-coconut with powdery iris and jasmine florals over a clean vanilla-musk-cedar base — intimate and comforting date-night warmth.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Mind Games Queening inspired. Creamy vanilla-coconut with powdery iris and jasmine florals over a clean vanilla-musk-cedar base — intimate and comforting date-night warmth."
   },
   {
     "name": "Harmony Code Absolute",
@@ -1335,7 +1439,8 @@
     "projection": "Moderate / Warm",
     "review": "Faithful Armani Code Absolu clone. Green mandarin and apple over orange blossom-nutmeg with a tonka-vanilla-suede base — reliable, attractive, and versatile for dates.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Faithful Armani Code Absolu clone. Green mandarin and apple over orange blossom-nutmeg with a tonka-vanilla-suede base — reliable, attractive, and versatile for dates."
   },
   {
     "name": "Ramz Silver",
@@ -1354,7 +1459,8 @@
     "projection": "Moderate / Cozy",
     "review": "JPG Ultra Male alternate with a lighter touch. Pear-lavender-mint over cardamom-sage with a clean vanilla-amber base — slightly more refined than 9PM for evening casual.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "JPG Ultra Male alternate with a lighter touch. Pear-lavender-mint over cardamom-sage with a clean vanilla-amber base — slightly more refined than 9PM for evening casual."
   },
   {
     "name": "Afnan 9 PM",
@@ -1373,7 +1479,8 @@
     "projection": "Enormous",
     "review": "King of high-performance loud clubbing scents. Sweet hyper-fruity bubblegum pear/apple opening into a warm, dense vanilla blanket.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "King of high-performance loud clubbing scents. Sweet hyper-fruity bubblegum pear/apple opening into a warm, dense vanilla blanket."
   },
   {
     "name": "Lattafa The Kingdom",
@@ -1392,7 +1499,8 @@
     "projection": "Heavy / Dominant",
     "review": "Le Male Elixir inspired beast. Mint-honey-benzoin over madagascar vanilla with tobacco and honeyed woods — powerfully sweet and dark, purpose-built for cold-weather clubbing.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Le Male Elixir inspired beast. Mint-honey-benzoin over madagascar vanilla with tobacco and honeyed woods — powerfully sweet and dark, purpose-built for cold-weather clubbing."
   },
   {
     "name": "Detour Noir Exclusif",
@@ -1411,7 +1519,8 @@
     "projection": "Strong / Enveloping",
     "review": "Layton Exclusif's near-twin at a fraction of the cost. Almond-vanilla opening over a complex guaiac-oud-coffee base — rich, formal, and beast-mode in performance.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Layton Exclusif's near-twin at a fraction of the cost. Almond-vanilla opening over a complex guaiac-oud-coffee base — rich, formal, and beast-mode in performance."
   },
   {
     "name": "Maison Alhambra Hercules",
@@ -1430,7 +1539,8 @@
     "projection": "Moderate / Cozy",
     "review": "PdM Herod clone at a fraction of the price. Cinnamon-pepper open into a tobacco-incense heart; vanilla and Iso E Super give a warm, woody-cedar finish. Reliable date-night warmth.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "PdM Herod clone at a fraction of the price. Cinnamon-pepper open into a tobacco-incense heart; vanilla and Iso E Super give a warm, woody-cedar finish. Reliable date-night warmth."
   },
   {
     "name": "Maison Alhambra Your Touch",
@@ -1449,7 +1559,8 @@
     "projection": "Moderate / Warm",
     "review": "Armani SWY inspired. Cardamom-pineapple opening into a warm chestnut-vanilla amberwood base — accessible, likeable, and well-executed for casual autumn/winter wear.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Armani SWY inspired. Cardamom-pineapple opening into a warm chestnut-vanilla amberwood base — accessible, likeable, and well-executed for casual autumn/winter wear."
   },
   {
     "name": "Victorioso Nero",
@@ -1468,7 +1579,8 @@
     "projection": "Moderate / Strong",
     "review": "Invictus Victory inspired. Pink pepper-olibanum over lavender with a vanilla-tonka amber base — darker and warmer than standard Invictus, works well in cold weather.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Invictus Victory inspired. Pink pepper-olibanum over lavender with a vanilla-tonka amber base — darker and warmer than standard Invictus, works well in cold weather."
   },
   {
     "name": "Lattafa Asad",
@@ -1487,7 +1599,8 @@
     "projection": "Nuclear",
     "review": "Potent masculine dark spice bomb. Drops fresh Sauvage for a heavy, retro licorice, cardamom, and thick lavender layer. Spray carefully.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Potent masculine dark spice bomb. Drops fresh Sauvage for a heavy, retro licorice, cardamom, and thick lavender layer. Spray carefully."
   },
   {
     "name": "Liquid Brun",
@@ -1506,7 +1619,8 @@
     "projection": "Strong",
     "review": "Elite buttery-smooth gourmand. Avoids the cheap 'candle-wax vanilla' trap via an airy guaiac wood backbone and warm cinnamon flakes.",
     "layering": "Mingle with {Khamrah Qahwa} or {Olfactory Bonfire} to add roasted-coffee or smoky-chestnut depth to the buttery bourbon vanilla.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Elite buttery-smooth gourmand. Avoids the cheap 'candle-wax vanilla' trap via an airy guaiac wood backbone and warm cinnamon flakes."
   },
   {
     "name": "La Uno Million Le Parfum",
@@ -1525,7 +1639,8 @@
     "projection": "Moderate / Warm",
     "review": "1 Million Parfum inspired. Solar-pine opening over monoi and tuberose heart; suede-leather-labdanum base gives it depth. Warmer and richer than standard 1 Million.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "1 Million Parfum inspired. Solar-pine opening over monoi and tuberose heart; suede-leather-labdanum base gives it depth. Warmer and richer than standard 1 Million."
   },
   {
     "name": "Aqua Oud",
@@ -1544,7 +1659,8 @@
     "projection": "Moderate / Clean",
     "review": "Unique fresh-marine oud original. Blue sky accord and marine elements soften the Cambodian oud into an office-appropriate warmth — distinctive and unlike standard aquatics.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Unique fresh-marine oud original. Blue sky accord and marine elements soften the Cambodian oud into an office-appropriate warmth — distinctive and unlike standard aquatics."
   },
   {
     "name": "Lattafa Khamrah",
@@ -1563,7 +1679,8 @@
     "projection": "Strong / Enveloping",
     "review": "Angels' Share golden clone. Cognac-cinnamon opening over a praline-date heart with a benzoin-myrrh backbone. Warmer and slightly deeper than Khamrah Qahwa.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Angels' Share golden clone. Cognac-cinnamon opening over a praline-date heart with a benzoin-myrrh backbone. Warmer and slightly deeper than Khamrah Qahwa."
   },
   {
     "name": "Glacier Le Noir",
@@ -1582,7 +1699,8 @@
     "projection": "Moderate / Cozy",
     "review": "Intimate evening / cooler date companion. Powdery cardamom opening into a creamy, dark, highly comforting vanilla.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Intimate evening / cooler date companion. Powdery cardamom opening into a creamy, dark, highly comforting vanilla."
   },
   {
     "name": "Rifaaqat",
@@ -1601,7 +1719,8 @@
     "projection": "Heavy",
     "review": "Cloning masterpiece. Non-sweet dark vanilla pod with raw premium suede leather and smoky incense trails. Smells opulent and high-end. Nuclear performance.",
     "layering": "Base layer under {Pinnace Oryn} or {Club De Nuit Iconic} to lift the dark suede-incense with a bright citrus opening.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Cloning masterpiece. Non-sweet dark vanilla pod with raw premium suede leather and smoky incense trails. Smells opulent and high-end. Nuclear performance."
   },
   {
     "name": "Raees Luxury Edition 180ml",
@@ -1620,7 +1739,8 @@
     "projection": "Strong",
     "review": "Value masterstroke. 180ml jumbo bottle replicating ADG Profumo: incense-forward marine with a calone-bergamot opening over a clean patchouli-cedar base.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Value masterstroke. 180ml jumbo bottle replicating ADG Profumo: incense-forward marine with a calone-bergamot opening over a clean patchouli-cedar base."
   },
   {
     "name": "Marine Blue",
@@ -1639,7 +1759,8 @@
     "projection": "Moderate",
     "review": "LV City of Stars clone praised as 'incredibly good' for DNA accuracy. Opens with a bright citrus burst; tiare flower and jasmine take over with a powdery, beachy quality — reviewers describe it as smelling like you spent the day at the beach, layered sunscreen, and rinsed off in clean water. Floral and slightly powdery throughout, unisex-leaning feminine. Tiare flower is the loudest element. Minimal sprays needed for 6+ hours of projection.",
     "layering": "Layer over {Aquatica} to stack powdery tiare florals atop creamy coconut-lime for a full tropical-beach accord.",
-    "flag": ""
+    "flag": "",
+    "consensus": "LV City of Stars clone praised as 'incredibly good' for DNA accuracy. Opens with a bright citrus burst; tiare flower and jasmine take over with a powdery, beachy quality — reviewers describe it as smelling like you spent the day at the beach, layered sunscreen, and rinsed off in clean water. Floral and slightly powdery throughout, unisex-leaning feminine. Tiare flower is the loudest element. Minimal sprays needed for 6+ hours of projection."
   },
   {
     "name": "Versus Ocean Bleu",
@@ -1658,7 +1779,8 @@
     "projection": "",
     "review": "Fragrance World's Dylan Blue clone with extra Sauvage ambroxan-papyrus depth layered in. Bergamot-grapefruit-fig leaf opening over an ambroxan-violet-patchouli heart; saffron and incense warm the drydown in a way the original doesn't. Community lands at 80–85% similarity to Dylan Blue. The saffron-incense base gives it an almost 90s-style warmth. Best-value entry into the Dylan Blue DNA.",
     "layering": "Base layer under {Marine Blue} to float bright citrus-tiare florals over the warm saffron-incense drydown.",
-    "flag": "⚠️ AUDIT: Longevity and projection unverified — update after first wear."
+    "flag": "⚠️ AUDIT: Longevity and projection unverified — update after first wear.",
+    "consensus": "Fragrance World's Dylan Blue clone with extra Sauvage ambroxan-papyrus depth layered in. Bergamot-grapefruit-fig leaf opening over an ambroxan-violet-patchouli heart; saffron and incense warm the drydown in a way the original doesn't. Community lands at 80–85% similarity to Dylan Blue. The saffron-incense base gives it an almost 90s-style warmth. Best-value entry into the Dylan Blue DNA."
   },
   {
     "name": "Arsh Extrait",
@@ -1677,7 +1799,8 @@
     "projection": "Moderate / Clean",
     "review": "L'Homme Idéal Platine Privé clone that outperforms the original in both longevity and projection. Grapefruit-bergamot opens cleanly before soapy-fresh neroli and smooth creamy almond come forward. Creamy cedar-vanilla drydown matches Platine Privé's signature finish closely. One reviewer flags a faint dusty note in the very late drydown. Described as the warm-weather cousin to Prada L'Homme Intense — sophisticated, clean, and versatile.",
     "layering": "Spray over {Enigma} to lift the resinous geranium-balsam base with soapy neroli and creamy almond.",
-    "flag": ""
+    "flag": "",
+    "consensus": "L'Homme Idéal Platine Privé clone that outperforms the original in both longevity and projection. Grapefruit-bergamot opens cleanly before soapy-fresh neroli and smooth creamy almond come forward. Creamy cedar-vanilla drydown matches Platine Privé's signature finish closely. One reviewer flags a faint dusty note in the very late drydown. Described as the warm-weather cousin to Prada L'Homme Intense — sophisticated, clean, and versatile."
   },
   {
     "name": "Winsome",
@@ -1696,7 +1819,8 @@
     "projection": "Moderate / Fading",
     "review": "Maison Alhambra's YSL Tuxedo clone (formerly sold as 'The Tux'). Opening reads 1:1 — violet leaf, coriander, and bergamot into a rose-lily of the valley heart. After 30 mins the base amber-vanilla settles in a way that lacks the original's depth. Community divided: some love it as a faithful budget Tuxedo; others flag a cloying resinous vanilla in the late drydown. Performance is the known weakness, fading to a skin scent by the 4th–5th hour.",
     "layering": "Anchor over {Afnan Rare Carbon} to give the short-lived violet-rose a leather-amber backbone that extends the wear.",
-    "flag": "⚠️ AUDIT: Longevity and drydown quality vary by batch — update after first wear."
+    "flag": "⚠️ AUDIT: Longevity and drydown quality vary by batch — update after first wear.",
+    "consensus": "Maison Alhambra's YSL Tuxedo clone (formerly sold as 'The Tux'). Opening reads 1:1 — violet leaf, coriander, and bergamot into a rose-lily of the valley heart. After 30 mins the base amber-vanilla settles in a way that lacks the original's depth. Community divided: some love it as a faithful budget Tuxedo; others flag a cloying resinous vanilla in the late drydown. Performance is the known weakness, fading to a skin scent by the 4th–5th hour."
   },
   {
     "name": "Rave Now",
@@ -1715,7 +1839,8 @@
     "projection": "Moderate",
     "review": "Hyper-juicy pineapple bomb built for Aventus layering — not a direct Creed clone but solves the pineapple gap every Aventus clone has. Community loves it over CDN Intense Man or any Aventus base to inject a realistic bright pineapple top. Wearable solo in summer as a fun casual freshie. Considered a no-brainer at the price.",
     "layering": "Layer over {Club De Nuit Intense Man} or {Afnan Supremacy Not Only Intense} to inject a realistic pineapple top note.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Hyper-juicy pineapple bomb built for Aventus layering — not a direct Creed clone but solves the pineapple gap every Aventus clone has. Community loves it over CDN Intense Man or any Aventus base to inject a realistic bright pineapple top. Wearable solo in summer as a fun casual freshie. Considered a no-brainer at the price."
   },
   {
     "name": "Pour Homme",
@@ -1734,7 +1859,8 @@
     "projection": "Strong / All Day",
     "review": "D&G's original 1994 aromatic fougère — a genuine classic, not a clone. Opens with an energising citrus-lavender burst (bergamot, mandarin, orange, tarragon) before a spiced floral heart of pepper, cinnamon, and rose develops. The tobacco-tonka-sandalwood base is where it earns its reputation: rounded, smooth, and soft yet unmistakably masculine. Lasts and projects all day, versatile enough for any season or occasion. A staple that still holds up 30 years on.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "D&G's original 1994 aromatic fougère — a genuine classic, not a clone. Opens with an energising citrus-lavender burst (bergamot, mandarin, orange, tarragon) before a spiced floral heart of pepper, cinnamon, and rose develops. The tobacco-tonka-sandalwood base is where it earns its reputation: rounded, smooth, and soft yet unmistakably masculine. Lasts and projects all day, versatile enough for any season or occasion. A staple that still holds up 30 years on."
   },
   {
     "name": "Hectic",
@@ -1753,7 +1879,8 @@
     "projection": "",
     "review": "Bujairami's LV Imagination clone — citrus-forward with a brighter, punchier orange and ginger than the original. Black tea and guaiac wood anchor the drydown. Bujairami reviewers report long-lasting performance and more compliments than LV Imagination itself.",
     "layering": "Compare directly against {Jacques Yves Imaginari} to find your preferred Imagination DNA.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Bujairami's LV Imagination clone — citrus-forward with a brighter, punchier orange and ginger than the original. Black tea and guaiac wood anchor the drydown. Bujairami reviewers report long-lasting performance and more compliments than LV Imagination itself."
   },
   {
     "name": "Sovereign",
@@ -1772,7 +1899,8 @@
     "projection": "Moderate / Strong",
     "review": "Bujairami's take on BdC L'Exclusif — fresh sweet citrus and herbal mint open into a ginger-jasmine-nutmeg heart, drying down to a rich leather-resin-sandalwood base. Stays firmly in the BdC family but with an especially strong, dense drydown that outlasts the original. Reviewers report nine-hour wear with excellent quality for the price.",
     "layering": "Base layer under {Platine Blanc} to ground the icy tonic-citrus with a leather-resin foundation.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Bujairami's take on BdC L'Exclusif — fresh sweet citrus and herbal mint open into a ginger-jasmine-nutmeg heart, drying down to a rich leather-resin-sandalwood base. Stays firmly in the BdC family but with an especially strong, dense drydown that outlasts the original. Reviewers report nine-hour wear with excellent quality for the price."
   },
   {
     "name": "Enigma",
@@ -1791,7 +1919,8 @@
     "projection": "",
     "review": "Bujairami's Prada Paradigme clone built on an inverted-pyramid architecture — warm benzoin-balsam base pushed forward through a geranium-rose heart. Resinous, balsamic, easy-wearing. The Paradigme original divides community (generic vs well-complimented daily) but Bujairami pricing removes the risk.",
     "layering": "Top with {Arsh Extrait} for a bright citrus-almond opening over the warm benzoin-balsam drydown.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Bujairami's Prada Paradigme clone built on an inverted-pyramid architecture — warm benzoin-balsam base pushed forward through a geranium-rose heart. Resinous, balsamic, easy-wearing. The Paradigme original divides community (generic vs well-complimented daily) but Bujairami pricing removes the risk."
   },
   {
     "name": "Too Damn Good",
@@ -1810,7 +1939,8 @@
     "projection": "",
     "review": "Bujairami's Extrait-level Byredo Bal d'Afrique Absolu clone. African marigold and citrus over a soft floral-jasmine heart with vetiver-cedar-ambrette drydown. Byredo original is notorious for weak performance — the Extrait concentration should address this.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Bujairami's Extrait-level Byredo Bal d'Afrique Absolu clone. African marigold and citrus over a soft floral-jasmine heart with vetiver-cedar-ambrette drydown. Byredo original is notorious for weak performance — the Extrait concentration should address this."
   },
   {
     "name": "Revival",
@@ -1829,7 +1959,8 @@
     "projection": "",
     "review": "Bujairami's interpretation of the long-discontinued Gucci Envy for Men. Community is split — satisfied buyers report it's 90% accurate with good longevity; purists are harsher on construction quality. Ginger-cardamom-lavender opening over a sandalwood-carnation heart with a dark incense-vetiver-leather base. Ordered at EOFY50 price — update longevity after first wear.",
     "layering": "",
-    "flag": "⚠️ AUDIT: Longevity and projection unverified — update after first wear."
+    "flag": "⚠️ AUDIT: Longevity and projection unverified — update after first wear.",
+    "consensus": "Bujairami's interpretation of the long-discontinued Gucci Envy for Men. Community is split — satisfied buyers report it's 90% accurate with good longevity; purists are harsher on construction quality. Ginger-cardamom-lavender opening over a sandalwood-carnation heart with a dark incense-vetiver-leather base. Ordered at EOFY50 price — update longevity after first wear."
   },
   {
     "name": "Hawas Verde",
@@ -1848,7 +1979,8 @@
     "projection": "Radiant",
     "review": "Ultimate scorching-day antidote. Near-identical Torino 21 clone — fizzy ice-cold mojito and botanical mint over a light patchouli-vetiver base. Hyper-refreshing.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Ultimate scorching-day antidote. Near-identical Torino 21 clone — fizzy ice-cold mojito and botanical mint over a light patchouli-vetiver base. Hyper-refreshing."
   },
   {
     "name": "Pacific Rock Moss (clone target)",
@@ -1867,7 +1999,8 @@
     "projection": "Moderate / Close",
     "review": "Therapeutic coastal profile — mineral, salty sea breeze on damp rocks and green moss. Avoids heavy synthetic blue chemicals.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Therapeutic coastal profile — mineral, salty sea breeze on damp rocks and green moss. Avoids heavy synthetic blue chemicals."
   },
   {
     "name": "Mahd Al Dhahab",
@@ -1886,7 +2019,8 @@
     "projection": "",
     "review": "Praised Drunk Lovers alternative. The opening is brighter and fresher than the original; the drydown smooths into a softer, slightly sweeter boozy vanilla. Community consensus: blending is actually better than BTSO, and it projects longer on some wearers. The catch is batch dependency — performance varies widely, with some bottles being quiet. At a fraction of the Born To Stand Out price, the drydown quality is a consensus win.",
     "layering": "",
-    "flag": ""
+    "flag": "⚠️ AUDIT: Public note pyramid conflicts with the prior Drunk Lovers mapping. Manual comparison/brand confirmation required.",
+    "consensus": "Public note data does not substantiate the stored Born To Stand Out Drunk Lovers mapping. Treat the inspiration claim as unverified until compared side-by-side or confirmed by the brand."
   },
   {
     "name": "Love Again / Cedar Horizon",
@@ -1905,7 +2039,8 @@
     "projection": "",
     "review": "The LV LVERS DNA is warm and solar — galbanum-ginger brightness over creamy sandalwood and cedarwood. Community describes a light, skin-close softness like a beach morning; not a loud freshie. Longevity is the known weakness of both clone candidates. Fragrantica notes on the original confirm a laid-back, casual-weekend signature that doesn't overstay its welcome.",
     "layering": "",
-    "flag": "Two candidate clones listed — pick one when purchasing."
+    "flag": "Two candidate clones listed — pick one when purchasing.",
+    "consensus": "The LV LVERS DNA is warm and solar — galbanum-ginger brightness over creamy sandalwood and cedarwood. Community describes a light, skin-close softness like a beach morning; not a loud freshie. Longevity is the known weakness of both clone candidates. Fragrantica notes on the original confirm a laid-back, casual-weekend signature that doesn't overstay its welcome."
   },
   {
     "name": "Astrodome",
@@ -1924,7 +2059,8 @@
     "projection": "Moderate / Fades Fast",
     "review": "Hamidi's Gucci Guilty Pour Homme Parfum clone. Lavender and nutmeg are the dominant notes; projects noticeably for the first hour then largely disappears. EDP format, unisex. Reviews note the DNA match is accurate but performance is the persistent weakness — spray heavily and don't expect it to last a full day.",
     "layering": "",
-    "flag": "⚠️ AUDIT: Performance widely reported as weak — verify longevity on your skin."
+    "flag": "⚠️ AUDIT: Performance widely reported as weak — verify longevity on your skin.",
+    "consensus": "Hamidi's Gucci Guilty Pour Homme Parfum clone. Lavender and nutmeg are the dominant notes; projects noticeably for the first hour then largely disappears. EDP format, unisex. Reviews note the DNA match is accurate but performance is the persistent weakness — spray heavily and don't expect it to last a full day."
   },
   {
     "name": "Ginger + Mist (Original)",
@@ -1943,7 +2079,8 @@
     "projection": "Moderate / Skin Scent",
     "review": "2025 Michael Malul original by nose Yann Vasnier. Celebrated on Fragrantica as one of the best ginger scents ever released — sparkling frosted ginger-ale brightness (bergamot, pineapple, cedar) opening into a coriander-nutmeg heart, drying down into akigalawood and sandalwood. Longevity splits the community (1 hour for some, 12+ as a skin scent for others). Kept here as the reference DNA baseline for clones.",
     "layering": "",
-    "flag": "This is an original (the thing being cloned), not a clone — kept here as a reference baseline."
+    "flag": "This is an original (the thing being cloned), not a clone — kept here as a reference baseline.",
+    "consensus": "2025 Michael Malul original by nose Yann Vasnier. Celebrated on Fragrantica as one of the best ginger scents ever released — sparkling frosted ginger-ale brightness (bergamot, pineapple, cedar) opening into a coriander-nutmeg heart, drying down into akigalawood and sandalwood. Longevity splits the community (1 hour for some, 12+ as a skin scent for others). Kept here as the reference DNA baseline for clones."
   },
   {
     "name": "Antique",
@@ -1962,7 +2099,8 @@
     "projection": "",
     "review": "Community strongly compares it to BDK Gris Charnel — same creamy, sophisticated oriental territory but with more vanilla-coconut warmth and a prominent fig-black tea opening vs Gris Charnel's smoother tea-iris structure. Reviewers call it 'wonderfully unisex', warm and intimate. Needs maceration to fully open — one month reportedly transforms both intensity and blending. Great value for the Niche Emarati tier.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Community strongly compares it to BDK Gris Charnel — same creamy, sophisticated oriental territory but with more vanilla-coconut warmth and a prominent fig-black tea opening vs Gris Charnel's smoother tea-iris structure. Reviewers call it 'wonderfully unisex', warm and intimate. Needs maceration to fully open — one month reportedly transforms both intensity and blending. Great value for the Niche Emarati tier."
   },
   {
     "name": "Voux Elegante",
@@ -1981,7 +2119,8 @@
     "projection": "",
     "review": "Gets approximately 75% of the way to Xerjoff Naxos — the honey-tobacco backbone is recognisable but the opening reads soapier and less refined than the original. Closes the gap significantly after 10–15 minutes of drydown as the cashmeran and tonka settle. Fragrantica reviewers note it's 'good value considering it costs 1/10th the price of Naxos'. Longevity is skin-dependent: 4–5 hours on some wearers. Strong formal evening candidate at an accessible price.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Gets approximately 75% of the way to Xerjoff Naxos — the honey-tobacco backbone is recognisable but the opening reads soapier and less refined than the original. Closes the gap significantly after 10–15 minutes of drydown as the cashmeran and tonka settle. Fragrantica reviewers note it's 'good value considering it costs 1/10th the price of Naxos'. Longevity is skin-dependent: 4–5 hours on some wearers. Strong formal evening candidate at an accessible price."
   },
   {
     "name": "Eau Santal / Saffron 4",
@@ -2000,7 +2139,8 @@
     "projection": "",
     "review": "Dry papyrus-iris Santal 33 interpretation. Community confirms a recognisable santal opening but longevity is the recurring concern — some get a strong first hour before the drydown becomes flat and fades fast. The Montagne version is generally regarded as the more faithful and longer-lasting of the two options; Maison Alhambra's Saffron 4 opens closer but fades faster on some skin types. Pick Montagne if longevity is the priority.",
     "layering": "",
-    "flag": "Dual clone option listed — pick one."
+    "flag": "Dual clone option listed — pick one.",
+    "consensus": "Dry papyrus-iris Santal 33 interpretation. Community confirms a recognisable santal opening but longevity is the recurring concern — some get a strong first hour before the drydown becomes flat and fades fast. The Montagne version is generally regarded as the more faithful and longer-lasting of the two options; Maison Alhambra's Saffron 4 opens closer but fades faster on some skin types. Pick Montagne if longevity is the priority."
   },
   {
     "name": "Suqraat",
@@ -2019,7 +2159,8 @@
     "projection": "",
     "review": "Community consensus: 90–95% Acqua di Gio Profumo at around $18 — widely called the best budget Profumo dupe available. The incense drydown is divisive: some love it as a natural-smelling surprise, others find it heavier and sweatier than the original's cool aquatic transparency. Full-day longevity widely confirmed. The only real gap vs the original is ADG Profumo's clean mineral transparency — Suqraat runs a touch denser and warmer in the base.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Community consensus: 90–95% Acqua di Gio Profumo at around $18 — widely called the best budget Profumo dupe available. The incense drydown is divisive: some love it as a natural-smelling surprise, others find it heavier and sweatier than the original's cool aquatic transparency. Full-day longevity widely confirmed. The only real gap vs the original is ADG Profumo's clean mineral transparency — Suqraat runs a touch denser and warmer in the base."
   },
   {
     "name": "Caballo Pour Homme",
@@ -2038,7 +2179,8 @@
     "projection": "Moderate / Strong",
     "review": "Gent's Scents spotlighted this as a genuine hybrid of Bvlgari Tygar and Bleu de Chanel at ~$32. Grapefruit-lemon-ginger opening with an ambrette-violet sparkle over a thick ambroxan-patchouli base. Fragrantica reviewers confirm 8+ hour longevity. One reviewer called it 'better than Turathi Blue outright.' Blind-buy safe: wearable anywhere, broadly appealing, solid performance.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Gent's Scents spotlighted this as a genuine hybrid of Bvlgari Tygar and Bleu de Chanel at ~$32. Grapefruit-lemon-ginger opening with an ambrette-violet sparkle over a thick ambroxan-patchouli base. Fragrantica reviewers confirm 8+ hour longevity. One reviewer called it 'better than Turathi Blue outright.' Blind-buy safe: wearable anywhere, broadly appealing, solid performance."
   },
   {
     "name": "Italiano Nero",
@@ -2057,7 +2199,8 @@
     "projection": "",
     "review": "Community is sharply divided: half say it's 'EXACTLY Black XS on first spray', the other half say it has 'nothing to do with Black XS.' The praline-cinnamon-cardamom DNA is the point of alignment; the gap is in construction refinement and batch consistency. Performance is the wildcard — some report under an hour, others get 6+ hours. Worth a sample before buying; at its price point the risk is low, but manage expectations on projection consistency.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Community is sharply divided: half say it's 'EXACTLY Black XS on first spray', the other half say it has 'nothing to do with Black XS.' The praline-cinnamon-cardamom DNA is the point of alignment; the gap is in construction refinement and batch consistency. Performance is the wildcard — some report under an hour, others get 6+ hours. Worth a sample before buying; at its price point the risk is low, but manage expectations on projection consistency."
   },
   {
     "name": "Daiman Eclipse",
@@ -2076,7 +2219,8 @@
     "projection": "Moderate / Elegant",
     "review": "Smoother, more approachable ADG Profumo alternative from Zimaya (Afnan's prestige line). Less incense-forward than the original — violet-amber heart and a clean patchouli-labdanum drydown.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Smoother, more approachable ADG Profumo alternative from Zimaya (Afnan's prestige line). Less incense-forward than the original — violet-amber heart and a clean patchouli-labdanum drydown."
   },
   {
     "name": "Forbidden Love",
@@ -2096,7 +2240,8 @@
     "projection": "Strong / Moderate after dry-down",
     "review": "Big cherry bomb with a marzipan edge — an unabashed Lost Cherry dupe the community broadly agrees gets 80–85% of the way there at a fraction of the price. Opens explosively sweet with black cherry and bitter almond, sweetens into a plummy rose core, and settles into a warm vanillic base with dark spice. Immense projection early on; some find the base spice note jarring, others love the complexity it adds. Formerly sold as Lovely Cherie. Consensus: a crowd-pleaser on the right skin.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Big cherry bomb with a marzipan edge — an unabashed Lost Cherry dupe the community broadly agrees gets 80–85% of the way there at a fraction of the price. Opens explosively sweet with black cherry and bitter almond, sweetens into a plummy rose core, and settles into a warm vanillic base with dark spice. Immense projection early on; some find the base spice note jarring, others love the complexity it adds. Formerly sold as Lovely Cherie. Consensus: a crowd-pleaser on the right skin."
   },
   {
     "name": "Ra'ed Absolu",
@@ -2116,7 +2261,8 @@
     "projection": "Moderate",
     "review": "2026 Lattafa clone of Ralph Lauren Polo 67 (P67). Opens with Golden Delicious apple and mandarin, moving into an orange-flower, jasmine, and ylang-ylang heart, closing on a soft vanilla-musk base with a slightly mossy oakmoss finish. Community confirms the P67-inspired DNA — same addictive, modern, crowd-pleasing vibe. Fruity-floral and versatile; moderate longevity (~6 hours). Over-delivers at the price. Note: reviewers say the sibling Ra'ed Intensely has the smoother drydown of the two.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "2026 Lattafa clone of Ralph Lauren Polo 67 (P67). Opens with Golden Delicious apple and mandarin, moving into an orange-flower, jasmine, and ylang-ylang heart, closing on a soft vanilla-musk base with a slightly mossy oakmoss finish. Community confirms the P67-inspired DNA — same addictive, modern, crowd-pleasing vibe. Fruity-floral and versatile; moderate longevity (~6 hours). Over-delivers at the price. Note: reviewers say the sibling Ra'ed Intensely has the smoother drydown of the two."
   },
   {
     "name": "Ra'ed Intensely",
@@ -2136,7 +2282,8 @@
     "projection": "Moderate / Clean",
     "review": "2026 Lattafa Prada Paradigme clone — widely praised as one of the closest budget Paradigme dupes, with reviewers saying it 'equals the Paradigme drydown.' Fresh grapefruit-yuzu-bergamot citrus opening dries down to a smooth sandalwood-ambroxan base with a clean vanillic warmth. Community consensus: significantly better drydown and performance than its sibling Ra'ed Absolu, 6-10 hour longevity, high-end Paradigme vibe at a fraction of the price. An easy office/daily win.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "2026 Lattafa Prada Paradigme clone — widely praised as one of the closest budget Paradigme dupes, with reviewers saying it 'equals the Paradigme drydown.' Fresh grapefruit-yuzu-bergamot citrus opening dries down to a smooth sandalwood-ambroxan base with a clean vanillic warmth. Community consensus: significantly better drydown and performance than its sibling Ra'ed Absolu, 6-10 hour longevity, high-end Paradigme vibe at a fraction of the price. An easy office/daily win."
   },
   {
     "name": "Naif",
@@ -2156,7 +2303,8 @@
     "projection": "Moderate / Fades Fast",
     "review": "A warm, spiced aromatic that bridges the bakery and the wardrobe — cardamom-spiked bergamot over plum, into a lavender-artemisia-davana heart, closing on tonka and labdanum. Wearers enjoy the cosy, crowd-friendly sweetness. The major caveat: longevity is genuinely poor, sometimes under 90 minutes on dry skin. Community tip is to layer over unscented body lotion to extend wear meaningfully. Low price keeps the risk manageable — but spray heavily and set expectations.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "A warm, spiced aromatic that bridges the bakery and the wardrobe — cardamom-spiked bergamot over plum, into a lavender-artemisia-davana heart, closing on tonka and labdanum. Wearers enjoy the cosy, crowd-friendly sweetness. The major caveat: longevity is genuinely poor, sometimes under 90 minutes on dry skin. Community tip is to layer over unscented body lotion to extend wear meaningfully. Low price keeps the risk manageable — but spray heavily and set expectations."
   },
   {
     "name": "Throne Eclipse",
@@ -2176,7 +2324,8 @@
     "projection": "Moderate",
     "review": "Maison Asrar's acclaimed spicy-sweet, rated 8.4/10 by the community. Cardamom and clove lead with an apple freshness on top; cinnamon and geranium warm the heart; amber and vanilla close with depth. Sophisticated rather than shouty — the spice is refined, not raw. Gets consistent compliments in cooler months. Community calls it a cosy fall/winter daily driver that occasionally crosses into date-night territory. Strong value proposition.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Maison Asrar's acclaimed spicy-sweet, rated 8.4/10 by the community. Cardamom and clove lead with an apple freshness on top; cinnamon and geranium warm the heart; amber and vanilla close with depth. Sophisticated rather than shouty — the spice is refined, not raw. Gets consistent compliments in cooler months. Community calls it a cosy fall/winter daily driver that occasionally crosses into date-night territory. Strong value proposition."
   },
   {
     "name": "Regent",
@@ -2196,7 +2345,8 @@
     "projection": "Light / Fades Fast",
     "review": "2026 Maison Asrar release — a bright citrus-led fresh with grapefruit-ginger-bergamot opening into an orange blossom and orris heart, settling on musk-cedarwood-sandalwood. Community loves the DNA and freshness but longevity is the known pain point: some report barely 2–3 hours on first use. Community tip is to let the bottle rest for maceration after opening. At its price point the citrus freshness is lovely, but be prepared to top up.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "2026 Maison Asrar release — a bright citrus-led fresh with grapefruit-ginger-bergamot opening into an orange blossom and orris heart, settling on musk-cedarwood-sandalwood. Community loves the DNA and freshness but longevity is the known pain point: some report barely 2–3 hours on first use. Community tip is to let the bottle rest for maceration after opening. At its price point the citrus freshness is lovely, but be prepared to top up."
   },
   {
     "name": "Vanguard",
@@ -2216,7 +2366,8 @@
     "projection": "Moderate",
     "review": "Aventus-adjacent fruity chypre from Maison Asrar with a polarising reception. Opens with a bright pineapple-blackcurrant-grapefruit bomb over pink pepper; carnation and lily of the valley add florality in the heart; leather-moss-ambergris lands the drydown in classic chypre territory. The 'light airy top meeting dark moss and leather base' is the distinctive DNA. Performance is batch-variable — some report 7–8 hours, others find the musk dominates early. Reportedly improves significantly with 1–3 months of maceration post-opening.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Aventus-adjacent fruity chypre from Maison Asrar with a polarising reception. Opens with a bright pineapple-blackcurrant-grapefruit bomb over pink pepper; carnation and lily of the valley add florality in the heart; leather-moss-ambergris lands the drydown in classic chypre territory. The 'light airy top meeting dark moss and leather base' is the distinctive DNA. Performance is batch-variable — some report 7–8 hours, others find the musk dominates early. Reportedly improves significantly with 1–3 months of maceration post-opening."
   },
   {
     "name": "Egra Men",
@@ -2236,7 +2387,8 @@
     "projection": "Moderate / 4 hrs beam",
     "review": "Community consensus puts Egra Men among the best Creed GIT dupes at its price point — a cool, fresh fougère blending the citrus-violet-lavender DNA of GIT with faint Cool Water vibes. Opens on clean bergamot and grapefruit fizz, transitions to an iris-violet heart, dries down to soft sandalwood and musk. Performance divides opinion: 8–10 hours on some skin, moderate-then-skin-scent after 4 hours in heat. At under $30, the risk-to-reward is exceptional.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Community consensus puts Egra Men among the best Creed GIT dupes at its price point — a cool, fresh fougère blending the citrus-violet-lavender DNA of GIT with faint Cool Water vibes. Opens on clean bergamot and grapefruit fizz, transitions to an iris-violet heart, dries down to soft sandalwood and musk. Performance divides opinion: 8–10 hours on some skin, moderate-then-skin-scent after 4 hours in heat. At under $30, the risk-to-reward is exceptional."
   },
   {
     "name": "Rafan pour Homme",
@@ -2256,7 +2408,8 @@
     "projection": "Moderate",
     "review": "Community consistently calls Rafan one of the most faithful Le Sel d'Issey alternatives — many can't distinguish the two in blind tests, calling it 95% of the original. Opens with a striking salty-ginger accord; seaweed-vetiver adds a green, mineral edge in the heart; cedar-oakmoss grounds the finish in clean wood. Longevity impresses for an aquatic, often outlasting the original's modest EdT. The consensus go-to dupe for the sea-salt-in-a-bottle experience at a fraction of the Issey price.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Community consistently calls Rafan one of the most faithful Le Sel d'Issey alternatives — many can't distinguish the two in blind tests, calling it 95% of the original. Opens with a striking salty-ginger accord; seaweed-vetiver adds a green, mineral edge in the heart; cedar-oakmoss grounds the finish in clean wood. Longevity impresses for an aquatic, often outlasting the original's modest EdT. The consensus go-to dupe for the sea-salt-in-a-bottle experience at a fraction of the Issey price."
   },
   {
     "name": "Le Sel d'Issey",
@@ -2276,7 +2429,8 @@
     "projection": "Moderate / 2-3 hrs",
     "review": "Divisive but distinctive — Issey's salty marine take that polarises with its unusual character. Opens on a striking sea salt and ginger burst; seaweed-vetiver adds a green, briny edge that some find unique and others find synthetic; cedarwood and oakmoss anchor into clean woody skin. 'Trademark Issey moderate' performance — 5–6 hours, 2–3 hours of active projection. Those who connect with it call it the most wearable sea-spray scent ever made. Best in summer or coastal settings. EdP version extends longevity to 7–8 hours.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Divisive but distinctive — Issey's salty marine take that polarises with its unusual character. Opens on a striking sea salt and ginger burst; seaweed-vetiver adds a green, briny edge that some find unique and others find synthetic; cedarwood and oakmoss anchor into clean woody skin. 'Trademark Issey moderate' performance — 5–6 hours, 2–3 hours of active projection. Those who connect with it call it the most wearable sea-spray scent ever made. Best in summer or coastal settings. EdP version extends longevity to 7–8 hours."
   },
   {
     "name": "Summer in Dubai",
@@ -2296,7 +2450,8 @@
     "projection": "Moderate / Strong",
     "review": "Anfar 1950's care-free aromatic aquatic that punches well above its price point. Grapefruit and pineapple open with sea-spray freshness over bergamot; cardamom and ginger add spice without heat; ambroxan and tonka extend the trail into a clean, warm drydown. Community praises performance as exceptional for the price — 6–8 hours with strong projection. Called 'an absolute belter' and a consistent compliment getter. A summer daily driver.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Anfar 1950's care-free aromatic aquatic that punches well above its price point. Grapefruit and pineapple open with sea-spray freshness over bergamot; cardamom and ginger add spice without heat; ambroxan and tonka extend the trail into a clean, warm drydown. Community praises performance as exceptional for the price — 6–8 hours with strong projection. Called 'an absolute belter' and a consistent compliment getter. A summer daily driver."
   },
   {
     "name": "Anfar Zenit Nomad",
@@ -2316,7 +2471,8 @@
     "projection": "Heavy / Beast Mode",
     "review": "Anfar 1950's Zenit Series entry — described by reviewers as 'legendary.' Lemon-pineapple-bergamot open with pink pepper brightness; birch and oud create a smoky, woody heart lifted by rosemary and white amber; vanilla, leather, and vetiver ground the drydown in a complex animalic trail. Community advice: 2 sprays maximum — this is potent. Performance reports are extraordinary, with some clocking 24+ hours. Exceptional value in the Anfar Zenit line; a full-day commitment in a bottle.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Anfar 1950's Zenit Series entry — described by reviewers as 'legendary.' Lemon-pineapple-bergamot open with pink pepper brightness; birch and oud create a smoky, woody heart lifted by rosemary and white amber; vanilla, leather, and vetiver ground the drydown in a complex animalic trail. Community advice: 2 sprays maximum — this is potent. Performance reports are extraordinary, with some clocking 24+ hours. Exceptional value in the Anfar Zenit line; a full-day commitment in a bottle."
   },
   {
     "name": "Armaf Odyssey Limoni",
@@ -2335,7 +2491,8 @@
     "projection": "Moderate then Close",
     "review": "Bright, realistic iced-tea-and-lemons freshie — an amalgamation of the LV freshie DNAs rather than one accurate clone. Punches well above its price for compliments on hot days, but longevity is the clear weakness, fading to a skin scent inside a couple of hours.",
     "layering": "Use as a lemon-tea topper over {Turathi Blue} or {Aquatica} to refresh a fading citrus opening.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Bright, realistic iced-tea-and-lemons freshie — an amalgamation of the LV freshie DNAs rather than one accurate clone. Punches well above its price for compliments on hot days, but longevity is the clear weakness, fading to a skin scent inside a couple of hours."
   },
   {
     "name": "Afnan Supremacy Not Only Intense",
@@ -2354,7 +2511,8 @@
     "projection": "Strong",
     "review": "Extrait de parfum (30%+ oil) built on the Aventus fruity-chypre idea but not a 1:1 clone — the oakmoss-patchouli heart dries down closer to Ombre Leather's earthy leather. Rich, versatile, and a genuine single-signature contender at the price.",
     "layering": "Layer {Qaed Al Fursan} over the top to inject a juicy pineapple lift into the leathery drydown.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Extrait de parfum (30%+ oil) built on the Aventus fruity-chypre idea but not a 1:1 clone — the oakmoss-patchouli heart dries down closer to Ombre Leather's earthy leather. Rich, versatile, and a genuine single-signature contender at the price."
   },
   {
     "name": "Luxe Street",
@@ -2373,7 +2531,8 @@
     "projection": "Moderate / Warm",
     "review": "Maison Alhambra's Luxe-line rendition of Bond No. 9 Lafayette Street — community pegs it around 80% for the money. Sweet apple over an ambroxan-vanilla-tonka base makes it an approachable, cosy fruity-oriental for cooler evenings.",
     "layering": "",
-    "flag": "⚠️ Performance unverified — update longevity/projection after first wear."
+    "flag": "⚠️ Performance unverified — update longevity/projection after first wear.",
+    "consensus": "Maison Alhambra's Luxe-line rendition of Bond No. 9 Lafayette Street — community pegs it around 80% for the money. Sweet apple over an ambroxan-vanilla-tonka base makes it an approachable, cosy fruity-oriental for cooler evenings."
   },
   {
     "name": "Legesi",
@@ -2392,7 +2551,8 @@
     "projection": "Moderate / 2 hr beam",
     "review": "Heavily-inspired Platinum Egoiste woody-aromatic softened with a vintage-fougère barbershop drydown and a touch of BdC. Projects well the first two hours. Known quirk: the opening 15-45 min can read harsh and slightly metallic before it settles into the clean shave-soap base.",
     "layering": "",
-    "flag": ""
+    "flag": "",
+    "consensus": "Heavily-inspired Platinum Egoiste woody-aromatic softened with a vintage-fougère barbershop drydown and a touch of BdC. Projects well the first two hours. Known quirk: the opening 15-45 min can read harsh and slightly metallic before it settles into the clean shave-soap base."
   },
   {
     "name": "Cosmic Giardino",
@@ -2411,7 +2571,8 @@
     "projection": "Moderate",
     "review": "80-90% Paradise Garden with its own twist — sweeter and smoother than the original, leaning into lavender-violet-geranium and a salty coconut-fig freshness over a soft woody-tonka base. A juicy, slightly green summer crowd-pleaser.",
     "layering": "Pairs with {Aquatica} to deepen the coconut into a fuller tropical-beach accord.",
-    "flag": ""
+    "flag": "",
+    "consensus": "80-90% Paradise Garden with its own twist — sweeter and smoother than the original, leaning into lavender-violet-geranium and a salty coconut-fig freshness over a soft woody-tonka base. A juicy, slightly green summer crowd-pleaser."
   },
   {
     "name": "Mercedes-Benz Club Black",
@@ -2430,7 +2591,8 @@
     "projection": "Moderate / Solid for an EDT",
     "review": "A genuinely well-regarded designer original (not a clone). Bright bergamot flashes then gives way to smoky incense and jasmine over a rich, lightly caramelised vanilla-benzoin base that surrounds rather than shouts. A polished night/date scent that smells far above its price.",
     "layering": "Layer under {Khamrah Qahwa} for a smoky incense-coffee-vanilla evening cloud.",
-    "flag": ""
+    "flag": "",
+    "consensus": "A genuinely well-regarded designer original (not a clone). Bright bergamot flashes then gives way to smoky incense and jasmine over a rich, lightly caramelised vanilla-benzoin base that surrounds rather than shouts. A polished night/date scent that smells far above its price."
   },
   {
     "name": "Afnan Rare Reef",
@@ -2449,6 +2611,7 @@
     "projection": "Moderate",
     "review": "Inspired by LV Pacific Chill but taken sweeter, fruitier and more citrus-forward — bright, beachy and clean with an apricot-fig warmth in the base. Not an exact clone (Pacific Chill is smoother and more apricot-heavy); reviews split on the synthetic citrus edge but praise the value.",
     "layering": "Layer over {Aquatica} to push a brighter citrus sparkle over the creamy coconut base.",
-    "flag": ""
+    "flag": "",
+    "consensus": "Inspired by LV Pacific Chill but taken sweeter, fruitier and more citrus-forward — bright, beachy and clean with an apricot-fig warmth in the base. Not an exact clone (Pacific Chill is smoother and more apricot-heavy); reviews split on the synthetic citrus edge but praise the value."
   }
 ]
