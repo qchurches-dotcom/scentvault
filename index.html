@@ -119,6 +119,20 @@
 
     .notes-list { font-size: 0.82rem; color: #cbd5e1; line-height: 1.5; }
     .notes-label { color: var(--accent-blue); font-weight: 500; font-size: 0.72rem; text-transform: uppercase; margin-right: 3px; }
+    /* note pyramid (borrowed idea: scent profile as tiered chips) */
+    .note-pyramid { display: flex; flex-direction: column; gap: 3px; }
+    .note-tier { display: flex; align-items: baseline; gap: 5px; flex-wrap: wrap; }
+    .tier-label { color: var(--accent-blue); font-weight: 600; font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.04em; min-width: 32px; }
+    .note-chip { background: #1e293b; border: 1px solid #334155; color: #cbd5e1; font-size: 0.72rem; padding: 1px 6px; border-radius: 10px; white-space: nowrap; }
+    /* inline click-to-rate stars */
+    .rate-stars { display: inline-flex; align-items: center; gap: 1px; white-space: nowrap; }
+    .rate-star { color: #334155; cursor: pointer; font-size: 0.95rem; line-height: 1; transition: color 0.1s; }
+    .rate-star:hover { color: var(--accent-amber); }
+    .rate-star.on { color: var(--accent-amber); }
+    .rate-val { color: var(--text-muted); font-size: 0.72rem; margin-left: 4px; }
+    /* season tags + community consensus */
+    .season-chip { display: inline-block; background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.25); color: #bae6fd; font-size: 0.7rem; padding: 2px 7px; border-radius: 20px; margin: 0 3px 3px 0; white-space: nowrap; }
+    .consensus-box { background-color: rgba(168,85,247,0.06); border-left: 2px solid var(--accent-purple); padding: 0.6rem 0.8rem; border-radius: 0 4px 4px 0; font-size: 0.85rem; color: #e2e8f0; margin-bottom: 0.75rem; }
 
     .badge {
         display: inline-block; padding: 4px 8px; border-radius: 4px; font-size: 0.68rem; font-weight: 700;
@@ -358,6 +372,8 @@
             <div class="form-group"><label>Base Notes</label><input class="form-control" id="f-base"></div>
             <div class="form-group"><label>Longevity</label><input class="form-control" id="f-longevity" placeholder="8 - 9 Hours"></div>
             <div class="form-group"><label>Projection</label><input class="form-control" id="f-projection" placeholder="Strong / Radiant"></div>
+            <div class="form-group"><label>Seasons (comma-sep: spring, summer, fall, winter)</label><input class="form-control" id="f-season" placeholder="summer, spring"></div>
+            <div class="form-group full"><label>What people say (community consensus — praise + the common gripe)</label><textarea class="form-control" id="f-consensus"></textarea></div>
             <div class="form-group full"><label>Layering Recommendation</label><textarea class="form-control" id="f-layering"></textarea></div>
             <div class="form-group full"><label>Review / Assessment</label><textarea class="form-control" id="f-review"></textarea></div>
             <div class="form-group full"><label>Flag note (discrepancy / needs audit — blank if none)</label><input class="form-control" id="f-flag"></div>
@@ -2051,7 +2067,7 @@ const SEED = [
     "family": "earthy",
     "scenario": "formal",
     "houseCat": "ysl",
-    "status": "ordered",
+    "status": "owned",
     "perf": "mod",
     "price": 38.68,
     "top": "Violet Leaf, Coriander, Bergamot",
@@ -2070,7 +2086,7 @@ const SEED = [
     "family": "aventus",
     "scenario": "casual",
     "houseCat": "original-other",
-    "status": "ordered",
+    "status": "owned",
     "perf": "mod",
     "price": 33.53,
     "top": "Pineapple, Bergamot, Apple, Blackcurrant",
@@ -2089,7 +2105,7 @@ const SEED = [
     "family": "earthy",
     "scenario": "office",
     "houseCat": "original-other",
-    "status": "ordered",
+    "status": "owned",
     "perf": "long",
     "price": 73.3,
     "top": "Lavender, Lemon, Bergamot, Clary Sage, Tarragon, Neroli, Mandarin Orange, Orange",
@@ -2279,7 +2295,7 @@ const SEED = [
     "family": "earthy",
     "scenario": "office",
     "houseCat": "original-other",
-    "status": "ordered",
+    "status": "owned",
     "perf": "weak",
     "price": 31.87,
     "top": "Juniper, Lavender, Lemon",
@@ -2610,7 +2626,7 @@ const SEED = [
     "family": "fresh",
     "scenario": "casual",
     "houseCat": "original-other",
-    "status": "ordered",
+    "status": "owned",
     "perf": "long",
     "price": 43.05,
     "rating": null,
@@ -2670,7 +2686,7 @@ const SEED = [
     "family": "aventus",
     "scenario": "formal",
     "houseCat": "original-other",
-    "status": "ordered",
+    "status": "owned",
     "perf": "beast",
     "price": 50.31,
     "rating": null,
@@ -2894,6 +2910,35 @@ function ratingHtml(r) {
     return `<span class="rating-pill ${ratingClass(r)}">${Number(r).toFixed(1)}<span style="opacity:0.6;font-weight:400">/10</span></span>`;
 }
 
+/* ---- borrowed-idea helpers: note pyramid, inline stars, season, consensus ---- */
+const SEASON = {spring:"🌸 Spring", summer:"☀️ Summer", fall:"🍂 Fall", winter:"❄️ Winter"};
+function noteTiers(item) {
+    const rows = [["Top",item.top],["Heart",item.heart],["Base",item.base]].filter(([,v])=>v).map(([label,v]) => {
+        const chips = v.split(",").map(n=>n.trim()).filter(Boolean).map(n=>`<span class="note-chip">${n}</span>`).join("");
+        return `<div class="note-tier"><span class="tier-label">${label}</span>${chips}</div>`;
+    }).join("");
+    return rows ? `<div class="note-pyramid">${rows}</div>` : "—";
+}
+function ratingStars(item) {
+    const r = (item.rating===null||item.rating===undefined||item.rating==="") ? 0 : Number(item.rating);
+    let s = '<span class="rate-stars" onclick="event.stopPropagation()">';
+    for (let n=1; n<=5; n++) s += `<span class="rate-star${r >= n*2-0.001 ? ' on':''}" onclick="setRating('${item.id}',${n*2})" title="Set ${n*2}/10 (click again to clear)">★</span>`;
+    s += (r ? `<span class="rate-val">${r.toFixed(1)}</span>` : "") + "</span>";
+    return s;
+}
+function setRating(id, val) {
+    const it = data.find(d=>d.id===id); if (!it) return;
+    it.rating = (Number(it.rating)===val) ? null : val; // click the same star again clears
+    save(); render();
+}
+function seasonChips(str) {
+    if (!str) return "";
+    return str.split(",").map(s=>s.trim().toLowerCase()).filter(s=>SEASON[s]).map(s=>`<span class="season-chip">${SEASON[s]}</span>`).join("");
+}
+// ponytail: Southern-Hemisphere season from month (user is in AU); swap for lat-based if ever needed.
+function currentSeason() { const m = new Date().getMonth(); return (m===11||m<2) ? "summer" : (m<5) ? "fall" : (m<8) ? "winter" : "spring"; }
+function seasonScore(item) { return item.season && item.season.toLowerCase().includes(currentSeason()) ? 4 : 0; }
+
 function getVisible() {
     let list = data.filter(matches);
     if (sortKey) {
@@ -2942,9 +2987,9 @@ function render() {
                 <td style="color:var(--accent-blue);font-size:0.7rem">▸</td>
                 <td><span class="perfume-name${wishCls}">${item.name}</span>${flagIcon}${layerIcon}<br><span class="house-tag">${item.house}</span></td>
                 <td style="font-style:italic;color:var(--text-muted)">${item.inspiration||"—"}</td>
-                <td class="notes-list"><span class="notes-label">Top:</span>${item.top||"—"}<br><span class="notes-label">Mid:</span>${item.heart||"—"}<br><span class="notes-label">Base:</span>${item.base||"—"}</td>
+                <td class="notes-list">${noteTiers(item)}</td>
                 <td><span class="badge ${p.cls}">${p.txt}</span></td>
-                <td>${ratingHtml(item.rating)}</td>
+                <td>${ratingStars(item)}</td>
                 <td><span class="scenario-badge">${(SCENARIO[item.scenario]||"—")}</span></td>
                 <td><span class="status-badge st-${item.status}">${STATUS[item.status]}</span><span class="price-tag">${priceTxt}</span></td>
                 <td class="col-edit" onclick="event.stopPropagation()">
@@ -2957,6 +3002,7 @@ function render() {
                     <div class="detail-container">
                         <div>
                             ${item.review ? `<div class="review-box"><strong>Assessment:</strong> ${item.review}</div>` : `<div class="review-box" style="border-color:var(--accent-amber);color:var(--text-muted)">No review yet — to be fleshed out.</div>`}
+                            ${item.consensus ? `<div class="consensus-box">💬 <strong>What people say:</strong> ${item.consensus}</div>` : ""}
                             ${item.layering ? `<div class="layering-box">🧪 <strong>Layering:</strong> ${linkifyLayering(item.layering)}</div>` : ""}
                             <a class="fragrantica-link" href="${fragranticaUrl(item)}" target="_blank" onclick="event.stopPropagation()">🌐 Search on Fragrantica →</a>
                         </div>
@@ -2966,6 +3012,7 @@ function render() {
                             <div class="stat-item"><span class="stat-key">Inspiration House</span>${HOUSECAT[item.houseCat]||"—"}</div>
                             <div class="stat-item"><span class="stat-key">Longevity</span>${item.longevity||"—"}</div>
                             <div class="stat-item"><span class="stat-key">Projection</span>${item.projection||"—"}</div>
+                            ${item.season ? `<div class="stat-item"><span class="stat-key">Seasons</span><span>${seasonChips(item.season)}</span></div>` : ""}
                             ${item.flag ? `<div class="stat-item" style="color:var(--accent-amber)"><span class="stat-key" style="color:var(--accent-amber)">⚠️ Flag</span>${item.flag}</div>` : ""}
                             <div class="detail-actions edit-only"><button class="btn" onclick="openModal('${item.id}')">✎ Edit</button></div>
                         </div>
@@ -3070,7 +3117,7 @@ function openModal(id) {
     const item = editing ? data.find(d=>d.id===id) : {family:"fresh",scenario:"casual",houseCat:"original-other",status:"owned",perf:""};
     const g = f => document.getElementById("f-"+f);
     g("id").value = editing ? id : "";
-    ["name","house","inspiration","top","heart","base","longevity","projection","layering","review","flag"].forEach(f => g(f).value = item[f]||"");
+    ["name","house","inspiration","top","heart","base","longevity","projection","season","consensus","layering","review","flag"].forEach(f => g(f).value = item[f]||"");
     g("price").value = (item.price!==null && item.price!==undefined) ? item.price : "";
     g("rating").value = (item.rating!==null && item.rating!==undefined && item.rating!=="") ? item.rating : "";
     ["family","scenario","houseCat","status","perf"].forEach(f => g(f).value = item[f]||"");
@@ -3090,6 +3137,7 @@ function saveEntry() {
         rating: g("rating").trim() === "" ? null : Math.min(10, Math.max(0, Number(g("rating").trim()))),
         top:g("top").trim(), heart:g("heart").trim(), base:g("base").trim(),
         longevity:g("longevity").trim(), projection:g("projection").trim(),
+        season:g("season").trim(), consensus:g("consensus").trim(),
         layering:g("layering").trim(), review:g("review").trim(), flag:g("flag").trim()
     };
     if (id) { const i = data.findIndex(d=>d.id===id); rec.id = id; data[i] = rec; }
@@ -3206,7 +3254,7 @@ function pickForMe() {
     if (pool.length === 0) { alert("No fragrances match the current filters — loosen them first."); return; }
     let pick;
     if (wxData) {
-        const weights = pool.map(d => Math.max(1, tempScore(d.family, wxData.temp) + timeScore(d.scenario)));
+        const weights = pool.map(d => Math.max(1, tempScore(d.family, wxData.temp) + timeScore(d.scenario) + seasonScore(d)));
         const total = weights.reduce((s, w) => s + w, 0);
         let rand = Math.random() * total;
         pick = pool[pool.length - 1];
