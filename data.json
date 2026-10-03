@@ -3214,17 +3214,17 @@
     "status": "owned",
     "perf": "",
     "price": 29,
-    "rating": null,
+    "rating": 7.5,
     "top": "Citrus, bergamot, lemon sorbet",
     "heart": "Green notes, fleur de sel, ginger",
     "base": "Ambergris accord (ambroxan per one retailer), vetiver",
     "longevity": "Unresolved - retailers 6-12h; reviewers split between 'insane' and 'lacks pop off the skin'",
     "projection": "Conflicting reports, low confidence",
+    "season": "spring, summer",
+    "consensus": "Thin data - the few reviews call it a hidden-gem summer freshie; the recurring criticism is that it sits close to the skin and lacks pop.",
     "layering": "Same grapefruit/saline-ambroxan lane as {Turathi Blue} and {Aariz} - alternate rather than stack.",
     "review": "Fresh green citrus with a saline fleur-de-sel twist over ambroxan and vetiver. Called spectacularly underrated by its small review base; one reviewer disliked it for two months before it clicked.",
-    "flag": "DUPLICATE per the 2026-09-19 cart audit: {Turathi Blue}, {Aariz} and {Majesty} already hold the Tygar/Vibrato slot. Concentration conflicts across listings (EDP vs extrait), unresolved. Perfumer and year not found; some retailers list it under 'Ramon Blazar'.",
-    "season": "spring, summer",
-    "consensus": "Thin data - the few reviews call it a hidden-gem summer freshie; the recurring criticism is that it sits close to the skin and lacks pop."
+    "flag": "DUPLICATE per the 2026-09-19 cart audit: {Turathi Blue}, {Aariz} and {Majesty} already hold the Tygar/Vibrato slot. Concentration conflicts across listings (EDP vs extrait), unresolved. Perfumer and year not found; some retailers list it under 'Ramon Blazar'."
   },
   {
     "name": "Bois De Bois",
