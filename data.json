@@ -161,16 +161,17 @@
     "status": "owned",
     "perf": "long",
     "price": null,
+    "rating": 7.5,
     "top": "Sicilian Lemon, Blackcurrant, Bergamot, Spicy Notes",
     "heart": "Fruity Notes, Patchouli Leaf, Water Jasmine",
     "base": "Cedar, Leather, Sandalwood, Oakmoss, Vanilla",
     "longevity": "6 - 8 Hours",
     "projection": "Moderate / Good Sillage",
-    "review": "Rich oriental take on Cedrat Boisé. Blackcurrant and patchouli deepen the lemon-citrus opening; leather and oakmoss anchor a warm vanilla base.",
-    "layering": "Pair with {Qaed Al Fursan} for a massive fruity-woody pineapple boost.",
-    "flag": "",
     "season": "spring, summer",
-    "consensus": "Praised as a close, cheap Mancera Cedrat Boise dupe with strong projection/longevity for the price; common gripe is it's noticeably more synthetic/less complex than the original."
+    "consensus": "Praised as a close, cheap Mancera Cedrat Boise dupe with strong projection/longevity for the price; common gripe is it's noticeably more synthetic/less complex than the original.",
+    "layering": "Pair with {Qaed Al Fursan} for a massive fruity-woody pineapple boost.",
+    "review": "Rich oriental take on Cedrat Boisé. Blackcurrant and patchouli deepen the lemon-citrus opening; leather and oakmoss anchor a warm vanilla base.",
+    "flag": ""
   },
   {
     "name": "Wander",
