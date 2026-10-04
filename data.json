@@ -104,7 +104,7 @@
     "projection": "Moderate / Airy",
     "review": "Uplifting hot-weather casual. Captures the luxury soap-meets-fizzy-ginger-tea profile of LV Imagination effortlessly.",
     "layering": "",
-    "flag": "",
+    "flag": "Confirmed by owner: both this and {Hectic} are LV Imagination clones, which is why their note lists are identical - not a data error.",
     "season": "spring, summer",
     "consensus": "Praised as a close, affordable LV Imagination dupe — clean, airy citrus/black tea, great in hot weather; main gripe is weak longevity/projection, often needing 8-10+ sprays."
   },
@@ -260,22 +260,23 @@
   {
     "name": "Fusion Intense",
     "house": "Maison Alhambra",
-    "inspiration": "Issey Miyake Fusion d'Issey",
-    "family": "fresh",
-    "scenario": "casual",
-    "houseCat": "original-other",
+    "inspiration": "Tom Ford Fabulous (confirmed by owner; the earlier Fusion d'Issey attribution was wrong)",
+    "family": "earthy",
+    "scenario": "date",
+    "houseCat": "tomford",
     "status": "owned",
     "perf": "mod",
     "price": null,
-    "top": "Coconut Milk, Lemon Zest, Cardamom",
-    "heart": "Rosemary, Geranium, Sandalwood",
-    "base": "Ambroxan, Mineral Woods, Patchouli",
-    "longevity": "4 - 5 Hours",
-    "projection": "Moderate / Close",
-    "review": "Light coconut-citrus fusion with rosemary and geranium heart. Ambroxan provides a clean mineral base. Beach casual or light office wear.",
+    "top": "Lavender, Clary sage, Bitter almond",
+    "heart": "Leather, Vanilla, Iris",
+    "base": "Leather, Tonka bean, Amber",
+    "longevity": "Unverified - re-check after wearing",
+    "projection": "Unverified",
+    "review": "Leathery lavender-almond evening scent in the Tom Ford Fabulous mould: clary sage and lavender over bitter almond, a leather-vanilla-iris heart and a tonka-amber base. Not a coconut/aquatic freshie despite the old listing.",
     "layering": "",
-    "flag": "",
-    "consensus": "Light coconut-citrus fusion with rosemary and geranium heart. Ambroxan provides a clean mineral base. Beach casual or light office wear."
+    "flag": "CORRECTED 2026-10-04: was listed as a Fusion d'Issey-style coconut/rosemary freshie; owner confirms it is a Tom Ford Fabulous clone. New notes come from search snippets of the Fabulous pyramid - verify against the bottle/Fragrantica. Longevity and projection are placeholders.",
+    "consensus": "Listing previously described a coconut-citrus freshie (wrong). Community verdict for this one still to be collected.",
+    "season": "fall, winter"
   },
   {
     "name": "Al Dirgham Limited Edition",
@@ -890,7 +891,7 @@
   {
     "name": "Montblanc Explorer",
     "house": "Montblanc",
-    "inspiration": "Creed Aventus (Smooth Wood)",
+    "inspiration": "Creed Aventus twist - same fruity-fresh idea with less smoke (confirmed by owner)",
     "family": "aventus",
     "scenario": "office",
     "houseCat": "creed",
@@ -904,7 +905,7 @@
     "projection": "Moderate / Refined",
     "review": "Smooth, polished Aventus-adjacent. Pink pepper and sage over haitian vetiver-leather with an ambroxan-akigalawood base — office-safe, inoffensive, and well-executed.",
     "layering": "",
-    "flag": "",
+    "flag": "Owner confirms Aventus-style twist with less smoke; sits in the Aventus/pineapple family, on the smoother, drier side.",
     "consensus": "Smooth, polished Aventus-adjacent. Pink pepper and sage over haitian vetiver-leather with an ambroxan-akigalawood base — office-safe, inoffensive, and well-executed.",
     "season": "spring, summer, fall"
   },
@@ -1367,7 +1368,7 @@
   {
     "name": "Glorious Oud Royal Blanc",
     "house": "French Avenue",
-    "inspiration": "Initio Musk Therapy",
+    "inspiration": "Initio Musk Therapy clone (confirmed by owner)",
     "family": "winter",
     "scenario": "office",
     "houseCat": "original-other",
@@ -1381,7 +1382,7 @@
     "projection": "Moderate / Airy",
     "review": "Clean white musk interpretation. Magnolia and blackcurrant over a soft musk-mandarin heart with sandalwood and patchouli base — understated and versatile for office.",
     "layering": "",
-    "flag": "",
+    "flag": "Confirmed Initio Musk Therapy clone. Despite the name there is no oud - it is a clean white-musk scent, so do not file it with the oud fragrances.",
     "consensus": "Clean white musk interpretation. Magnolia and blackcurrant over a soft musk-mandarin heart with sandalwood and patchouli base — understated and versatile for office."
   },
   {
@@ -1568,21 +1569,21 @@
   {
     "name": "Lattafa Asad",
     "house": "Lattafa",
-    "inspiration": "Dior Sauvage Elixir (Dark Spices & Licorice)",
+    "inspiration": "Dior Sauvage Elixir clone (confirmed - Fragrantica lists it as inspired by Sauvage Elixir)",
     "family": "winter",
     "scenario": "formal",
     "houseCat": "dior",
     "status": "owned",
     "perf": "beast",
     "price": null,
-    "top": "Cinnamon, Nutmeg, Cardamom, Grapefruit",
-    "heart": "Lavender, Black Licorice",
-    "base": "Sandalwood, Amber, Patchouli, Vetiver",
+    "top": "Black pepper, Pineapple, Tobacco",
+    "heart": "Patchouli, Coffee, Iris",
+    "base": "Vanilla, Amber, Benzoin",
     "longevity": "12+ Hours",
     "projection": "Nuclear",
-    "review": "Potent masculine dark spice bomb. Drops fresh Sauvage for a heavy, retro licorice, cardamom, and thick lavender layer. Spray carefully.",
+    "review": "Rich spicy-tobacco take on Sauvage Elixir: black pepper and pineapple over tobacco, a patchouli-coffee-iris heart and a vanilla-amber-benzoin base. Potent - spray carefully.",
     "layering": "",
-    "flag": "",
+    "flag": "CORRECTED 2026-10-04: the old note list was Sauvage Elixir's own pyramid copied across. New notes come from search snippets of the Fragrantica Asad page (page itself returns 403) - verify. Not a duplicate of {Asad (Maison Des Parfums 80ml)}.",
     "consensus": "Potent masculine dark spice bomb. Drops fresh Sauvage for a heavy, retro licorice, cardamom, and thick lavender layer. Spray carefully."
   },
   {
@@ -1862,7 +1863,7 @@
     "projection": "",
     "review": "Bujairami's LV Imagination clone — citrus-forward with a brighter, punchier orange and ginger than the original. Black tea and guaiac wood anchor the drydown. Bujairami reviewers report long-lasting performance and more compliments than LV Imagination itself.",
     "layering": "Compare directly against {Jacques Yves Imaginari} to find your preferred Imagination DNA.",
-    "flag": "",
+    "flag": "Confirmed by owner: both this and {Jacques Yves Imaginari} are LV Imagination clones, which is why their note lists are identical - not a data error.",
     "consensus": "Bujairami's LV Imagination clone — citrus-forward with a brighter, punchier orange and ginger than the original. Black tea and guaiac wood anchor the drydown. Bujairami reviewers report long-lasting performance and more compliments than LV Imagination itself."
   },
   {
@@ -3209,7 +3210,7 @@
   {
     "name": "Bravanzo Vestige",
     "house": "Dumont Paris",
-    "inspiration": "Bvlgari Le Gemme Tygar and/or Sospiro Vibrato (medium confidence, reviewer comparison only - one Parfumo reviewer calls it a Vibrato clone that is deeper, greener and less gingery)",
+    "inspiration": "Sospiro Vibrato clone (confirmed by owner; ginger-and-citrus driven)",
     "family": "fresh",
     "scenario": "casual",
     "houseCat": "bvlgari-sospiro",
@@ -3226,7 +3227,7 @@
     "consensus": "Thin data - the few reviews call it a hidden-gem summer freshie; the recurring criticism is that it sits close to the skin and lacks pop.",
     "layering": "Same grapefruit/saline-ambroxan lane as {Turathi Blue} and {Aariz} - alternate rather than stack.",
     "review": "Fresh green citrus with a saline fleur-de-sel twist over ambroxan and vetiver. Called spectacularly underrated by its small review base; one reviewer disliked it for two months before it clicked.",
-    "flag": "DUPLICATE per the 2026-09-19 cart audit: {Turathi Blue}, {Aariz} and {Majesty} already hold the Tygar/Vibrato slot. Concentration conflicts across listings (EDP vs extrait), unresolved. Perfumer and year not found; some retailers list it under 'Ramon Blazar'."
+    "flag": "DUPLICATE per the 2026-09-19 cart audit: {Turathi Blue}, {Aariz} and {Majesty} already hold the Tygar/Vibrato slot. Concentration conflicts across listings (EDP vs extrait), unresolved; some retailers list it under 'Ramon Blazar'."
   },
   {
     "name": "Bois De Bois",
