@@ -2463,7 +2463,8 @@
     "layering": "",
     "flag": "⚠️ Performance unverified — update longevity/projection after first wear.",
     "consensus": "Maison Alhambra's Luxe-line rendition of Bond No. 9 Lafayette Street — community pegs it around 80% for the money. Sweet apple over an ambroxan-vanilla-tonka base makes it an approachable, cosy fruity-oriental for cooler evenings.",
-    "season": "spring, fall"
+    "season": "spring, fall",
+    "rating": 8.5
   },
   {
     "name": "Legesi",
@@ -2484,7 +2485,8 @@
     "layering": "",
     "flag": "",
     "consensus": "Heavily-inspired Platinum Egoiste woody-aromatic softened with a vintage-fougère barbershop drydown and a touch of BdC. Projects well the first two hours. Known quirk: the opening 15-45 min can read harsh and slightly metallic before it settles into the clean shave-soap base.",
-    "season": "spring, summer, fall"
+    "season": "spring, summer, fall",
+    "rating": 9
   },
   {
     "name": "Cosmic Giardino",
