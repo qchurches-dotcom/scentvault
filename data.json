@@ -2505,7 +2505,8 @@
     "layering": "Pairs with {Aquatica} to deepen the coconut into a fuller tropical-beach accord.",
     "flag": "",
     "consensus": "80-90% Paradise Garden with its own twist — sweeter and smoother than the original, leaning into lavender-violet-geranium and a salty coconut-fig freshness over a soft woody-tonka base. A juicy, slightly green summer crowd-pleaser.",
-    "season": "spring, summer"
+    "season": "spring, summer",
+    "rating": 8
   },
   {
     "name": "Mercedes-Benz Club Black",
@@ -2526,7 +2527,8 @@
     "layering": "Layer under {Khamrah Qahwa} for a smoky incense-coffee-vanilla evening cloud.",
     "flag": "",
     "consensus": "A genuinely well-regarded designer original (not a clone). Bright bergamot flashes then gives way to smoky incense and jasmine over a rich, lightly caramelised vanilla-benzoin base that surrounds rather than shouts. A polished night/date scent that smells far above its price.",
-    "season": "fall, winter"
+    "season": "fall, winter",
+    "rating": 8.5
   },
   {
     "name": "Afnan Rare Reef",
