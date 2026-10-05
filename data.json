@@ -1338,7 +1338,7 @@
   {
     "name": "Khamrah Qahwa",
     "house": "Lattafa",
-    "inspiration": "Coffee-gourmand riff on Lattafa Khamrah / Kilian Angels' Share DNA",
+    "inspiration": "Roasted Coffee / Kilian Angels' Share riff",
     "family": "winter",
     "scenario": "date",
     "houseCat": "kilian",
@@ -1346,14 +1346,14 @@
     "perf": "beast",
     "price": null,
     "top": "Cinnamon, Cardamom, Ginger",
-    "heart": "Praline, Candied Fruits, White Flowers",
-    "base": "Coffee, Vanilla, Tonka Bean, Benzoin, Musk",
-    "longevity": "8 - 10 Hours (12+ on cool skin)",
-    "projection": "Strong; huge sillage for the first 3-4 hours",
-    "review": "Coffee-gourmand take on Khamrah: cinnamon-cardamom-ginger spice, a praline and candied-fruit heart, then coffee, vanilla, tonka and benzoin. The coffee leaves a slight bitterness under the vanilla, so it stays less generic than original Khamrah late in the wear. Cold-weather beast.",
+    "heart": "Roasted Coffee Beans, Candied Dates, Praline, White Florals",
+    "base": "Vanilla, Tonka Bean, Benzoin, Amberwood",
+    "longevity": "11+ Hours",
+    "projection": "Room-filling",
+    "review": "Addictive cold-weather stunner. Dark roasted coffee over the syrupy candied-date base of Khamrah, cutting back the baseline sweetness.",
     "layering": "Base layer under {Sheikh Al Shuyukh Final Ed.} for spiced bakery sillage.",
     "flag": "",
-    "consensus": "Widely rated a sweet, loud coffee-gourmand with great longevity (8-10 hours, more on cool skin) and big projection. Best in autumn/winter; can be cloying in heat.",
+    "consensus": "Addictive cold-weather stunner. Dark roasted coffee over the syrupy candied-date base of Khamrah, cutting back the baseline sweetness.",
     "season": "fall, winter"
   },
   {
@@ -1679,7 +1679,7 @@
     "family": "winter",
     "scenario": "date",
     "houseCat": "kilian",
-    "status": "wishlist",
+    "status": "owned",
     "perf": "beast",
     "price": null,
     "top": "Cognac, Cinnamon, Bergamot, Nutmeg",
@@ -2611,7 +2611,8 @@
     "review": "An Ingenious Ginger clone, and reviewers call it dead-on — about $54 against roughly $148–240 for the Goldfield & Banks. IMPORTANT: the \"ginger\" is GINGER FLOWER, a soft powdery magnolia-adjacent floral, not culinary ginger root. That is why it reads sunny and creamy rather than spicy: luminous mandarin and lemon peel, a magnolia-jasmine heart, then vanilla, amber and Australian sandalwood. Pairs with {Ravine Ice} — French Avenue’s Ravine line is doing Goldfield & Banks.",
     "flag": "",
     "consensus": "Fragrantica 4.4/5 from 72 votes; the original scores 8.4/10 at ScentGrade. Consistently rated broadly pleasant and well balanced with no synthetic harshness. Main gripe is the quiet, close-to-skin projection.",
-    "season": "spring, summer, fall"
+    "season": "spring, summer, fall",
+    "rating": 7
   },
   {
     "name": "Night Club Green Tweed",
@@ -2632,7 +2633,8 @@
     "review": "The clearest clone in the order and the best price-to-risk buy at $14 for 50 ml. Green aromatic fougère with the recognisable GIT structure — bright lemony-green opening, violet/iris heart, clean mineral-woody drydown.",
     "flag": "",
     "consensus": "The budget-clone pattern is broadly positive: recognisable green freshness, versatility and value. Gripes are a sharper, more synthetic opening than the original and batch-variable performance.",
-    "season": "spring, summer, fall"
+    "season": "spring, summer, fall",
+    "rating": 8
   },
   {
     "name": "Jacques Yves Tempete",
@@ -2674,7 +2676,8 @@
     "review": "A Santal Greenery clone — ScentMetric puts it at 78% similar, and wearers call it a slightly more citrusy reading with a bigger bergamot kick. Grapefruit-bergamot opening, milky-creamy fig with green violet-leaf crispness, smooth sandalwood and white musk underneath. About $25 against roughly $250 for the Dries Van Noten, at comparable longevity.",
     "flag": "",
     "consensus": "Confirmed dupe in community comparisons. The original holds Parfumo 7.6/10 from 161 ratings and is widely called nicer, smoother and cleaner — but not ten-times-the-price nicer. Jungle Vibe itself scores Fragrantica 3.0/5 on both longevity and sillage; reception is positive-but-mixed and explicitly not for everyone.",
-    "season": "spring, summer, fall"
+    "season": "spring, summer, fall",
+    "rating": 8.5
   },
   {
     "name": "Cedrus Blanc",
@@ -2695,7 +2698,8 @@
     "review": "A CH Cedar Chic clone (Private Blends AU) — near-identical structure: aldehydes and bergamot, orange blossom, then white musk and cedar. The original is Antoine Maisondieu’s \"expensive freshly-laundered cotton\" idea, and despite the name the cedar is subtle; one reviewer renamed it \"Aldehyde Chic\". Reads like a perfectly tailored white shirt. About $25 against roughly $400 for the Herrera.",
     "flag": "",
     "consensus": "Community treats it as a confirmed dupe — the note structures line up almost exactly and both give the high-end-spa aura. Parfumo 7.77 longevity / 7.48 sillage, but from only 8 ratings, so treat the numbers as provisional. Criticism: some find it too soapy or too musky.",
-    "season": "spring, summer, fall, winter"
+    "season": "spring, summer, fall, winter",
+    "rating": 7
   },
   {
     "name": "Fareed",
@@ -2738,7 +2742,8 @@
     "review": "Bright, citrusy and ginger-spicy with cardamom for warmth. Orange blossom gives the heart a clean luminous floral character and orris a powdery cosmetic smoothness; patchouli, modern amber and musk anchor it while keeping it airy and diffusive. Gulf Orchid files it Woody Spicy Floral.",
     "flag": "Clone mapping is community-based, medium confidence. Gulf Orchid’s long-lasting claims are marketing, not measurement.",
     "consensus": "Fragrantica 4.70/5 but from only 23 votes and three written reviews - a rating, not a consensus. Early reviews call it a softer, sweeter, airier take on the MYSLF family; the risk is that orange blossom, orris and clean musk read detergent-like on some skin.",
-    "season": "spring, summer"
+    "season": "spring, summer",
+    "rating": 8
   },
   {
     "name": "Nazih Silver",
@@ -2928,7 +2933,8 @@
     "review": "Citrusy-spicy aromatic opening, a warm luminous cardamom and ginger heart, and a smooth intimate tobacco-amber-cedar drydown. Buy it for refinement and versatility, not projection. The women’s The One EDP is a different product — keep the records separate. Same pyramid as the EDT but amplified - amber and tobacco pushed forward, sweeter and warmer, and it lasts about twice as long.",
     "flag": "Chosen over the EDT on performance (EDT is 3-5 hours). Buy the 2015/2017 men’s EDP - not the EDT, not the women’s The One, not The One Pour Homme Gold, not the 2025 Pour Homme EDP. Best price 2026-09-04: FragranceX 100ml A$109.65 GST-inc (~A$123.60 landed); their 151ml EDP is A$141.29 with free delivery - better per-ml if you want the big bottle. Ordered 2026-09-20: 50ml men's EDP at A$85.39 (not the 100ml price quoted above).",
     "consensus": "Durably positive on scent quality and date-night appeal. Common gripe: performance feels underpowered if you expect a large trail. Against the EDT the verdict is consistent: near-identical scent, materially better performance, and the small price gap favours the EDP.",
-    "season": "fall, winter"
+    "season": "fall, winter",
+    "rating": 9.5
   },
   {
     "name": "Kenzo Homme Eau de Parfum",
@@ -3318,7 +3324,7 @@
     "base": "Vanilla, amber, tonka, sandalwood",
     "longevity": "~7 hours with strong sillage in community summaries (the retailer 8-10h is marketing). Bacchus reportedly lasts ~10h",
     "projection": "Strong through the opening hours",
-    "layering": "Boozy-vanilla neighbours in the vault are {Royal Blend} and {Khamrah Qahwa}; {Mauzoon} covers the same saffron-peach-vanilla-patchouli ground. A plain vanilla or tonka underneath smooths the harsh rum opening.",
+    "layering": "Boozy-vanilla neighbours in the vault are {Royal Blend} and {Khamrah}; {Mauzoon} covers the same saffron-peach-vanilla-patchouli ground. A plain vanilla or tonka underneath smooths the harsh rum opening.",
     "review": "Peach-rum-saffron opening over a sweet vanilla-amber-tonka drydown. Lighter, fruitier and less boozy than Triumph of Bacchus, with a harsher syrupy rum up top; the drydown is reported as very close to the original.",
     "flag": "PARTIAL overlap per the 2026-09-19 cart audit ({Mauzoon}, {Royal Blend}, {Khamrah}). Not the unrelated Colosseum by Christian Provenzano. A$25 paid 2026-09-20 against A$57.99 at WITR.",
     "season": "fall, winter",
@@ -3424,7 +3430,7 @@
     "base": "Dry amber, Patchouli, Sandalwood, Vetiver",
     "longevity": "All-day per community reviews",
     "projection": "Above average",
-    "layering": "By note logic only: {Khamrah Qahwa} for a sweeter spiced amber, {Cedrus Blanc} for a drier woody lift, {Detour Noir Exclusif} for a darker base.",
+    "layering": "By note logic only: {Lattafa Khamrah} for a sweeter spiced amber, {Cedrus Blanc} for a drier woody lift, {Detour Noir Exclusif} for a darker base.",
     "review": "Airy, polished cardamom-amber bouquet with a light oud accord and lily, over patchouli, sandalwood and vetiver. Smooth spicy-woody, and not cloying despite lasting all day.",
     "flag": "NOT a duplicate of {Lattafa Asad} - different juice, same name only. Community scores are from your supplied research; I could not find them independently. Fragrance World Horse Collection (2024).",
     "season": "fall, winter",
@@ -3467,7 +3473,7 @@
     "base": "Sandalwood, oud",
     "longevity": "Roughly 6-8 hours on skin in a fresh bottle, 8-10+ after a few weeks of maceration; clings to clothes much longer",
     "projection": "Moderate; a personal bubble for the first 1-2 hours, then close to skin. Not a room-filler",
-    "layering": "A sweet amber or vanilla topper such as {Khamrah Qahwa} adds warmth in winter; avoid pairing with another plum-led scent.",
+    "layering": "A sweet amber or vanilla topper such as {Khamrah} adds warmth in winter; avoid pairing with another plum-led scent.",
     "review": "Aromatic lavender and sage over a dark plum and palo santo heart, drying to a quiet sandalwood and light oud base. Calm and woody rather than loud, closer to a smooth daily driver than a statement scent. Plum can turn a little cloying in heat, so go light in summer.",
     "flag": "Notes are Fragrantica/retailer-listed; performance figures are from review blogs, not measured.",
     "season": "spring, fall",
@@ -3533,7 +3539,7 @@
     "base": "Amber, cedarwood, patchouli, vetiver",
     "longevity": "About 6-9 hours depending on batch and maceration; one reviewer reported it doubled after a week of airing",
     "projection": "Moderate with a subtle but noticeable sillage; less projection than the original",
-    "layering": "Over {Toro Pour Homme Glace} for extra icy citrus, or under {Khamrah Qahwa} in autumn for a warmer spiced blend.",
+    "layering": "Over {Toro Pour Homme Glace} for extra icy citrus, or under {Khamrah} in autumn for a warmer spiced blend.",
     "review": "Cardamom, ginger and lemon open bright and spicy, then lavender, geranium and mint give a fresh aromatic heart. The base is amber, cedar, patchouli and vetiver, warmer and denser than a typical fresh scent. A versatile year-round daily wear.",
     "flag": "Retailers call it a gourmand; the listed notes read fresh-spicy aromatic. Clone claim is community-based.",
     "season": "spring, fall",
