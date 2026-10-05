@@ -1607,7 +1607,8 @@
     "layering": "",
     "flag": "CORRECTED 2026-10-04: the old note list was Sauvage Elixir's own pyramid copied across. New notes come from search snippets of the Fragrantica Asad page (page itself returns 403) - verify. Not a duplicate of {Asad (Maison Des Parfums 80ml)}.",
     "consensus": "Potent masculine dark spice bomb. Drops fresh Sauvage for a heavy, retro licorice, cardamom, and thick lavender layer. Spray carefully.",
-    "season": "fall, winter"
+    "season": "fall, winter",
+    "rating": 9
   },
   {
     "name": "Liquid Brun",
