@@ -739,7 +739,8 @@
     "layering": "",
     "flag": "Corrected 2026-10-04 on owner's say: grapefruit-led citrus, not a close Tygar-type. Filed with the citrus scents.",
     "consensus": "Citrus-heavy and assertive; strong performer.",
-    "season": "spring, summer, fall"
+    "season": "spring, summer, fall",
+    "rating": 7
   },
   {
     "name": "Coach Platinum",
@@ -760,7 +761,8 @@
     "layering": "",
     "flag": "",
     "consensus": "Clean professional scent with a pineapple-juniper lift. Cashmeran and sage heart gives a smooth aromatic character; vanilla and leather base adds warmth.",
-    "season": "fall, winter, spring"
+    "season": "fall, winter, spring",
+    "rating": 8
   },
   {
     "name": "Narciso Rodriguez Bleu Noir",
@@ -781,7 +783,8 @@
     "layering": "",
     "flag": "",
     "consensus": "Sophisticated musky blue with excellent date-night appeal. Dense cardamom and nutmeg open into a musk-dominant heart over an ebony-cedar base — intimate and distinctive.",
-    "season": "fall, winter, spring"
+    "season": "fall, winter, spring",
+    "rating": 8.5
   },
   {
     "name": "Versace Dylan Blue",
