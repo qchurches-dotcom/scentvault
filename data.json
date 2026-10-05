@@ -1628,7 +1628,8 @@
     "layering": "Mingle with {Khamrah Qahwa} or {Olfactory Bonfire} to add roasted-coffee or smoky-chestnut depth to the buttery bourbon vanilla.",
     "flag": "",
     "consensus": "Elite buttery-smooth gourmand. Avoids the cheap 'candle-wax vanilla' trap via an airy guaiac wood backbone and warm cinnamon flakes.",
-    "season": "fall, winter"
+    "season": "fall, winter",
+    "rating": 9
   },
   {
     "name": "La Uno Million Le Parfum",
@@ -1649,7 +1650,8 @@
     "layering": "",
     "flag": "",
     "consensus": "1 Million Parfum inspired. Solar-pine opening over monoi and tuberose heart; suede-leather-labdanum base gives it depth. Warmer and richer than standard 1 Million.",
-    "season": "fall, winter"
+    "season": "fall, winter",
+    "rating": 8.5
   },
   {
     "name": "Aqua Oud",
