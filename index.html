@@ -130,6 +130,7 @@
     .rate-star { color: #334155; cursor: pointer; font-size: 1.3rem; line-height: 1.1; transition: color 0.1s; }
     .rate-star:hover { color: var(--accent-amber); }
     .rate-star.on { color: var(--accent-amber); }
+    .rate-star.half { background: linear-gradient(90deg, var(--accent-amber) 50%, #334155 50%); -webkit-background-clip: text; background-clip: text; color: transparent; }
     .rate-val { color: var(--text-muted); font-size: 0.72rem; margin-left: 4px; }
     /* season tags + community consensus */
     .season-chip { display: inline-block; background: rgba(56,189,248,0.08); border: 1px solid rgba(56,189,248,0.25); color: #bae6fd; font-size: 0.7rem; padding: 2px 7px; border-radius: 20px; margin: 0 3px 3px 0; white-space: nowrap; }
@@ -4029,12 +4030,13 @@ function noteTiers(item) {
 function ratingStars(item) {
     const r = (item.rating===null||item.rating===undefined||item.rating==="") ? 0 : Number(item.rating);
     let s = '<span class="rate-stars" onclick="event.stopPropagation()"><span class="rate-grid">';
-    for (let n=1; n<=10; n++) s += `<span class="rate-star${r >= n-0.001 ? ' on':''}" onclick="setRating('${item.id}',${n})" title="Set ${n}/10 (click again to clear)">★</span>`;
+    for (let n=1; n<=10; n++) s += `<span class="rate-star${r >= n-0.001 ? ' on' : r >= n-0.501 ? ' half':''}" onclick="setRating('${item.id}',${n},event)" title="Left half ${n-0.5}, right half ${n} (click same again to clear)">★</span>`;
     s += "</span>" + (r ? `<span class="rate-val">${r.toFixed(1)}</span>` : "") + "</span>";
     return s;
 }
-function setRating(id, val) {
+function setRating(id, val, ev) {
     const it = data.find(d=>d.id===id); if (!it) return;
+    if (ev) { const b = ev.currentTarget.getBoundingClientRect(); if (ev.clientX < b.left + b.width/2) val -= 0.5; } // left half = half star
     it.rating = (Number(it.rating)===val) ? null : val; // click the same star again clears
     save(); render();
 }
