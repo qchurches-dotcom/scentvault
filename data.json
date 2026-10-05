@@ -1612,7 +1612,7 @@
     "flag": "",
     "consensus": "Armani SWY inspired. Cardamom-pineapple opening into a warm chestnut-vanilla amberwood base — accessible, likeable, and well-executed for casual autumn/winter wear.",
     "season": "fall, winter",
-    "rating": 8.5
+    "rating": 8
   },
   {
     "name": "Victorioso Nero",
@@ -1633,7 +1633,8 @@
     "layering": "",
     "flag": "",
     "consensus": "Invictus Victory inspired. Pink pepper-olibanum over lavender with a vanilla-tonka amber base — darker and warmer than standard Invictus, works well in cold weather.",
-    "season": "fall, winter"
+    "season": "fall, winter",
+    "rating": 8
   },
   {
     "name": "Lattafa Asad",
